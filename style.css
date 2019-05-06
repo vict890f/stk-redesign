@@ -175,6 +175,7 @@ header nav a:hover {
 /****************************  MENU SLUT  ****************************/
 
 
+/****************************  HOLD  ****************************/
 #hold {
     background-color: #000000;
     padding: 15px;
@@ -215,4 +216,14 @@ header nav a:hover {
 #hold p,
     {
     color: white;
+}
+
+/****************************  HOLD SLUT  ****************************/
+
+
+
+
+hr.streg {
+    border: 2px solid #CD2E3A;
+    width: 50%;
 }
