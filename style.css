@@ -24,11 +24,7 @@ section {
     flex-wrap: wrap;
 }
 
-footer {
-    background-color: black;
-    margin: 0px;
 
-}
 
 img {
     width: 100%;
@@ -41,6 +37,20 @@ figure {
     padding: 0;
 }
 
+/* FOOTER */
+footer {
+    background-color: black;
+    margin: 0px;
+    padding: 20px 10px;
+
+}
+
+.kontakt h3,
+.kontakt p {
+    color: #ffffff;
+}
+
+/* FOOTER SLUT */
 /****************************  GENERELT SLUT  ****************************/
 
 /**************************** TYPOGRAFI ****************************/
@@ -67,15 +77,6 @@ h3 {
     font-weight: 700;
     font-size: 1.20rem;
     color: #000000;
-}
-
-h3.footer {
-    font-family: 'Noto Sans:700', sans-serif;
-    font-weight: 700;
-    color: #ffffff;
-    margin: 0;
-    padding: 0.5rem;
-
 }
 
 
@@ -124,9 +125,10 @@ a {
 /****************************  MENU  ****************************/
 
 header {
-    background-color: #0047A0;
+    background-color: #ffffff;
     position: fixed;
     top: 0;
+    padding: 20px 10px;
     width: 100%;
     margin: 0rem;
 }
@@ -149,8 +151,8 @@ header nav a {
 header nav a:link,
 header nav a:visited,
 header nav a:active {
-    background-color: #0047A0;
-    color: white;
+    background-color: #ffffff;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
 }
@@ -169,4 +171,48 @@ header nav a:hover {
 
 }
 
+
 /****************************  MENU SLUT  ****************************/
+
+
+#hold {
+    background-color: #000000;
+    padding: 15px;
+    margin: 0px;
+}
+
+#hold .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#hold .col {
+    /* child flex */
+    flex-grow: 1;
+    flex-basis: 300px;
+    /* parent flex */
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    max-width: 500px;
+}
+
+#hold .top {
+    margin: 15px;
+}
+
+#hold .bottom {
+    margin: 15px;
+
+}
+
+#hold h3,
+#hold p,
+    {
+    color: white;
+}
