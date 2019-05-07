@@ -45,15 +45,18 @@ footer {
 
 }
 
-#footer .sectionwrapper {
+#footer .wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 #footer .col {
     flex-grow: 1;
     flex-basis: 400px;
+    margin: 15px;
+    padding: 15px;
 
 }
 
