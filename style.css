@@ -183,8 +183,6 @@ header nav a:hover {
 
 }
 
-
-
 hidden {
     /*    display: none;*/
     /*    transform: scale(0);*/
@@ -235,11 +233,12 @@ hidden {
 
 }
 
+/*
 #hold .col {
-    /* child flex */
+parent
     flex-grow: 1;
     flex-basis: 300px;
-    /* parent flex */
+child
     display: flex;
     flex-direction: column;
 
@@ -247,6 +246,17 @@ hidden {
     padding: 15px;
     margin: 15px;
     max-width: 500px;
+}
+*/
+
+#hold .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#om .col {
+    flex-basis: 300px;
+    flex-grow: 1;
 }
 
 #hold .top {
@@ -262,6 +272,20 @@ hidden {
 #hold p,
     {
     color: white;
+}
+
+#hold_splash {
+    width: 100vw;
+    height: 100vh;
+    max-width: none;
+    background-image: url(assets/billede1.jpg);
+    background-size: cover;
+    background-position: 50% 0%, 5% 0%;
+}
+
+#hold_info h2 {
+    left: 2rem;
+
 }
 
 /****************************  HOLD SLUT  ****************************/
