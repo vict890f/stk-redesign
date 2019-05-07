@@ -45,6 +45,18 @@ footer {
 
 }
 
+#footer .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#footer .col {
+    flex-grow: 1;
+    flex-basis: 400px;
+
+}
+
 .kontakt h3,
 .kontakt p {
     color: #ffffff;
