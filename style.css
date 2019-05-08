@@ -413,11 +413,11 @@ input[type=submit] {
 
 
 /****************************  FORSIDE_HOLD  ****************************/
+
 #forside_hold {
     background-color: #000000;
     padding: 15px;
     margin: 0px;
-
 }
 
 #forside_hold .sectionwrapper {
@@ -427,15 +427,55 @@ input[type=submit] {
 
 }
 
-<<<<<<< HEAD
 #forside_hold .col {
     /* child flex */
     flex-grow: 1;
     flex-basis: 300px;
     /* parent flex */
-=======
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    max-width: 500px;
+}
+
+#forside_hold .top {
+    margin: 15px;
+}
+
+#forside_hold .bottom {
+    margin: 15px;
+
+}
+
+#forside_hold h3,
+#forside_hold p,
+    {
+    color: white;
+}
+
+/****************************  FORSIDE_HOLD SLUT ****************************/
+
+/****************************  HOLD ****************************/
+#hold {
+    background-color: #000000;
+    padding: 15px;
+    margin: 0px;
+
+}
+
+#hold .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
 #hold_info .sectionwrapper {
->>>>>>> origin/master
     display: flex;
     flex-wrap: wrap;
 }
@@ -454,11 +494,7 @@ input[type=submit] {
 
 }
 
-<<<<<<< HEAD
-#forside_hold h3,
-#forside_hold p,
-    {
-=======
+
 #hold_splash {
     width: 100vw;
     height: 100vh;
@@ -520,11 +556,9 @@ input[type=submit] {
 }
 
 #hold_splash3 h2 {
->>>>>>> origin/master
     color: white;
 }
 
-<<<<<<< HEAD
 #hold_splash3 p {
     color: red;
 }
@@ -587,13 +621,7 @@ input[type=submit] {
 }
 
 
-
-
-=======
->>>>>>> origin/master
-
-
-/****************************  FORSIDE_HOLD SLUT  ****************************/
+/****************************  HOLD SLUT  ****************************/
 
 
 /****************************  BLIV MEDLEM  ****************************/
@@ -647,7 +675,7 @@ input[type=submit] {
     margin: 0px;
 }
 
-#historie_splash{
+#historie_splash {
     background-image: url(filer/fotos/billede_1.png);
     width: 100vw;
     height: 66.6vw;
@@ -656,7 +684,7 @@ input[type=submit] {
     margin: 0px;
 }
 
-#instruktoerer_splash{
+#instruktoerer_splash {
     background-image: url(filer/fotos/billede_1.png);
     width: 100vw;
     height: 66.6vw;
@@ -664,6 +692,7 @@ input[type=submit] {
     max-width: none;
     margin: 0px;
 }
+
 /****************************  KLUBBEN SLUT  ****************************/
 
 
