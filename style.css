@@ -692,6 +692,29 @@ input[type=submit] {
     margin: 0px;
 }
 
+
+#klubben .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#klubben .colright {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#klubben .colleft {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+/******OBS: Jeg vil gerne have en max vide på, men det skal være ens på alle siden***/
+
+#klubben h2 {
+    color: #0047a0;
+}
+
 /****************************  KLUBBEN SLUT  ****************************/
 
 
