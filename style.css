@@ -283,6 +283,32 @@ hidden {
 
 /****************************  KLUBBEN  ****************************/
 
+#klub_splash {
+    background-image: url(filer/fotos/billede_1.png);
+    width: 100vw;
+    height: 66.6vw;
+    background-size: cover;
+    max-width: none;
+    margin: 0px;
+}
+
+#historie_splash{
+    background-image: url(filer/fotos/billede_1.png);
+    width: 100vw;
+    height: 66.6vw;
+    background-size: cover;
+    max-width: none;
+    margin: 0px;
+}
+
+#instruktoerer_splash{
+    background-image: url(filer/fotos/billede_1.png);
+    width: 100vw;
+    height: 66.6vw;
+    background-size: cover;
+    max-width: none;
+    margin: 0px;
+}
 /****************************  KLUBBEN SLUT  ****************************/
 
 
