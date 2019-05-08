@@ -49,19 +49,44 @@ footer {
 
 }
 
-#footer .sectionwrapper {
+#footer .wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 #footer .col {
     flex-grow: 1;
     flex-basis: 400px;
+    margin: 15px;
+    padding: 15px;
 
 }
 
-.kontakt h3,
+footer .wrapper li {
+    color: white;
+
+}
+
+footer .wrapper ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+footer ul,
+footer p {
+    color: #ffffff;
+}
+
+.adresse h3,
+.kontakt h3 {
+    color: #ffffff;
+}
+
+.adresse p,
 .kontakt p {
     color: #ffffff;
 }
@@ -133,6 +158,11 @@ a:hover {
 a {
     font-family: 'Noto Sans:700', sans-serif;
 
+}
+
+hr.streg {
+    border: 2px solid #CD2E3A;
+    width: 50%;
 }
 
 
@@ -221,6 +251,165 @@ hidden {
 }
 
 /****************************  MENU SLUT  ****************************/
+
+
+
+/****************************  SPLASH  ****************************/
+
+#splash {
+
+    width: 100%;
+    height: 20vw;
+    background-color: black;
+    background-size: cover;
+    background-position: 80% 0%;
+    max-width: none;
+    padding: 0;
+    margin-top: 20px;
+    margin: 0;
+    position: relative;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    overflow: auto;
+
+}
+
+#splash h1 {
+    color: white;
+}
+
+#splash a {
+    background-color: #CD2E3A;
+    color: white;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+}
+
+/****************************  SPLASH SLUT  ****************************/
+
+
+
+
+/****************************  VIDEO ****************************/
+
+#film {
+    background-color: #CD2E3A;
+    padding: 15px;
+    margin: 0px;
+}
+
+#film .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#film .col {
+    flex-grow: 1;
+    flex-basis: 400px;
+    margin: 15px;
+    padding: 15px;
+}
+
+#film .video {}
+
+/****************************  VIDEO SLUT  ****************************/
+
+
+
+
+/****************************  NYHEDSBREV  ****************************/
+
+#nyhedsbrev {
+    background-color: #0047A0;
+    padding: 15px;
+    margin: 0px;
+
+}
+
+#nyhedsbrev .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+#nyhedsbrev .col {
+    flex-grow: 1;
+    flex-basis: 400px;
+    padding: 15px;
+    margin: 15px;
+    max-width: 500px;
+}
+
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #0047A0;
+    border-radius: 4px;
+    background-color: #E4E4E4;
+}
+
+input[type=email]:focus {
+    background-color: white;
+
+
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #ffffff;
+    color: #0047A0;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#nyhedsbrev input[type=submit]:hover {
+    background-color: #ffffff;
+    color: #0047A0;
+}
+
+#nyhedsbrev .txt,
+#nyhedsbrev .email {
+    color: #0047A0;
+}
+
+#nyhedsbrev .button {
+    color: #ffffff;
+    background-color: #0047A0;
+    font-weight: bold;
+}
+
+#nyhedsbrev .form {
+    color: #0047A0;
+}
+
+
+
+#nyhedsbrev h1,
+#nyhedsbrev h2,
+#nyhedsbrev h3,
+#nyhedsbrev p {
+    color: white;
+}
+
+/****************************  NYHEDSBREV SLUT  ****************************/
+
 
 
 /****************************  HOLD  ****************************/
@@ -321,6 +510,7 @@ hidden {
     color: white;
 }
 
+<<<<<<< HEAD
 #hold_splash3 p {
     color: red;
 }
@@ -385,21 +575,115 @@ hidden {
 
 
 
+=======
+>>>>>>> origin/master
 
 
 /****************************  HOLD SLUT  ****************************/
 
 
+/****************************  BLIV MEDLEM  ****************************/
 
-
-hr.streg {
-    border: 2px solid #CD2E3A;
-    width: 50%;
+#nyt {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 0px;
 }
 
+#nyt .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
-/****************************  klubben ****************************/
+}
+
+#nyt .col {
+    padding: 15px;
+    margin: 15px;
+}
+
+#nyt a {
+    background-color: #CD2E3A;
+    color: white;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+}
+
+/****************************  BLIV MEDLEM SLUT ****************************/
 
 
 
-/****************************  klubben ****************************/
+/****************************  HOLD  ****************************/
+
+/****************************  HOLD SLUT  ****************************/
+
+
+
+/****************************  KLUBBEN  ****************************/
+
+/****************************  KLUBBEN SLUT  ****************************/
+
+
+
+/****************************  TAEKWONDO  ****************************/
+
+/****************************  TAEKWONDO SLUT  ****************************/
+
+
+
+/****************************  MEDLEM  ****************************/
+
+/****************************  MEDLEM SLUT  ****************************/
+
+
+
+/****************************  MEDIER  ****************************/
+
+/****************************  MEDIER SLUT  ****************************/
+
+
+
+/****************************  MEDIA QUERIES  ****************************/
+
+@media only screen and (min-width: 200px) {
+    #splash {
+
+        background-position: 80% 0%;
+        margin-top: 150px;
+        position: relative;
+
+    }
+
+}
+
+@media only screen and (min-width: 500px) {
+    #splash {
+        width: 100vw;
+        height: 46.25vw;
+        background-position: 80% 0%;
+        margin-top: 170px;
+        position: relative;
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+
+    #splash {
+        margin-top: 80px;
+        background-position: 80% 0%;
+    }
+}
+
+@media (orientation: landscape) {
+    #splash {
+        width: 100vw;
+        height: 46.25vw;
+        background-position: 0% 0%;
+    }
+}
+
+/****************************  MEDIA QUERIES SLUT  ****************************/

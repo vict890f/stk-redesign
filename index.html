@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="robots" content="noindex">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700|Noto+Sans:400,400i,700" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -16,20 +17,33 @@
             <nav>
                 <div id="menuknap">☰</div>
                 <ul id="menu" class="hidden">
-                    <li><a href="index.html#forside">Forside</a></li>
+                    <li><a href="index.html#splash">Forside</a></li>
                     <li><a href="klubben.html">Klubben</a></li>
                     <li><a href="taekwondo.html">Taekwondo</a></li>
                     <li><a href="hold.html">Hold</a></li>
-                    <li><a href="medlem.html">Medlem</a></li>
+                    <li><a href="medlem.html">Bliv medlem</a></li>
                     <li><a href="medier.html">Medier</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="forside">
+
+    <section id="splash">
         <div class="sectionwrapper">
-            <h1>Sundby Taekwondo Klub</h1>
+            <div class="titel">
+                <h1>Sundby Taekwondo Klub</h1>
+                <a href="klubben.html">Læs mere om klubben</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="film">
+        <div class="sectionwrapper">
+
+            <video controls src="http://annesofienielsen.dk/kea/03-content/03-redesign/02_03_05_virksomhedsvideo.mp4" poster="filer/logo/logo.png" width="620">
+            </video>
+
         </div>
     </section>
     <section id="hold">
@@ -81,7 +95,44 @@
         </div>
     </section>
 
-    <hr class="streg">
+    <section id="nyt">
+        <h1>Nyt medlem?</h1>
+
+        <div class="sectionwrapper">
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam commodi magnam vero molestias assumenda, maiores eveniet minus adipisci reiciendis. Natus non inventore, dolorem magnam asperiores totam praesentium. Nulla, architecto, rem?</p>
+                <br>
+                <a href="medlem.html">Bliv medlem</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="nyhedsbrev">
+        <div class="sectionwrapper">
+
+            <div class="col">
+                <div class="foto">
+                    <figure>
+                        <img src="filer/fotos/panda-holdet.jpg" alt="billede">
+                    </figure>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="txt">
+                    <h2>Tilmeld dig vores nyhedsbrev</h2>
+                    <p>Skriv dig op til Sundby Taekwondo Klubs nyhedsbrev og få de vigtigste historier fra klubben leveret direkte i din indbakke. Nyhedsbrevet udsendes fast en gang hver måned.</p>
+                </div>
+                <div class="signup">
+                    <form action="/action_page.php" method="get" id="nameform">
+                        <input type="email" name="email" placeholder="Din mailadresse" class="email"><br>
+                        <input type="submit" value="Tilmeld" class="button">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="proev">
         <h1>Vil du prøve Taekwondo?</h1>
@@ -99,6 +150,8 @@
         </div>
     </section>
 
+    <hr class="streg">
+
     <section id="taekwondo">
         <h1>Taekwondo</h1>
         <div class="sectionwrapper">
@@ -106,15 +159,10 @@
         </div>
     </section>
 
-    <section id="medlem">
-        <h1>Medlem</h1>
-        <div class="sectionwrapper">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam commodi magnam vero molestias assumenda, maiores eveniet minus adipisci reiciendis. Natus non inventore, dolorem magnam asperiores totam praesentium. Nulla, architecto, rem?</p>
-        </div>
-    </section>
+    <hr class="streg">
 
     <section id="medier">
-        <h1>Medlem</h1>
+        <h1>Medier</h1>
         <div class="sectionwrapper">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam commodi magnam vero molestias assumenda, maiores eveniet minus adipisci reiciendis. Natus non inventore, dolorem magnam asperiores totam praesentium. Nulla, architecto, rem?</p>
         </div>
@@ -123,14 +171,30 @@
     <footer>
         <div class="wrapper">
             <div class="col">
-                <div class="kontakt">
-                    <h3 class="footer">Kontakt</h3>
+                <ul>
+                    <li>Mandag</li>
+                    <li>Tirsdag</li>
+                    <li>Onsdag</li>
+                    <li>Torsdag</li>
+                    <li>Fredag</li>
+                    <li>Lørdag</li>
+                    <li>Søndag</li>
+                </ul>
+
+                <div class="adresse">
+                    <p><b>Adresse</b></p>
                     <p>Sundby Taekwondo Klub</p>
-                    <p>Adresse: Portugalsgade 13, kld. 2300 København S</p>
-                    <p>Email: stk@sundbytaekwondo.dk</p>
-                    <p>Tlf: 40 50 92 45</p>
+                    <p>Portugalsgade 13, kld. 2300<p>
+                            <p>København S</p>
+                </div>
+                <br>
+                <div class="kontakt">
+                    <p><b>Kontakt</b></p>
+                    <p>Tel: 40 50 92 45</p>
+                    <p>Mail: stk@sundbytaekwondo.dk</p>
                 </div>
             </div>
+            <br>
             <div class="col">
                 <a href="https://www.facebook.com/Sundby-Taekwondo-Klub-689677994410773/" target="_blank"> Facebook Link</a>
             </div>
