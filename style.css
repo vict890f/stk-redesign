@@ -941,7 +941,6 @@ input[type=submit] {
 }
 
 
-<<<<<<< HEAD======= > > > > > > > origin/master======= > > > > > > > origin/master
 /****************************  HOLD SLUT  ****************************/
 
 
@@ -980,6 +979,22 @@ input[type=submit] {
     background-size: cover;
     max-width: none;
     margin: 0px;
+}
+
+#klub_break1 {
+    background-image: url(assets/korea_break1.png);
+}
+
+#klub_break2 {
+    background-image: url(assets/korea_break2.png);
+}
+
+#klub_break3 {
+    background-image: url(assets/korea_break3.png);
+}
+
+#klub_break4 {
+    background-image: url(assets/korea_break4.png);
 }
 
 #instruktoerer .col {
@@ -1058,7 +1073,7 @@ historie p {
 }
 
 #bestyrelsen {
-    background-color: #cd2e3a;
+    background-color: #e4e4e4;
 }
 
 #bestyrelsen .sectionwrapper {
@@ -1075,7 +1090,7 @@ historie p {
     flex-grow: 1;
 }
 
-.bestyrelsesbox h3 {
+.bestyrelsesbox h2 {
     color: #0047a9;
 }
 
