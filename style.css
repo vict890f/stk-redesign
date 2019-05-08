@@ -658,6 +658,21 @@ input[type=submit] {
 
 /****************************  PROEV SLUT ****************************/
 
+/****************************  FACEBOOK LOGO TIL FOOTER  ****************************/
+
+#facebook {
+    background-color: #CD2E3A;
+    padding: 15px;
+    margin: 0px;
+
+}
+
+#facebook .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
 
 
 
