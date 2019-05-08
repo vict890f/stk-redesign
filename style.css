@@ -554,6 +554,7 @@ input[type=submit] {
 /****************************  BLIV MEDLEM SLUT ****************************/
 
 /****************************  HOLD ****************************/
+
 #hold {
     background-color: #000000;
     padding: 15px;
@@ -702,7 +703,29 @@ input[type=submit] {
 #hold_afsnit1 figure {
     margin-left: 10vw;
     width: 30vw;
+}
 
+#hold_afsnit1 p {
+    margin-bottom: 2.5vw;
+}
+
+#hold_afsnit1 a {
+    background-color: #CD2E3A;
+    color: white;
+    margin-top: 20vw;
+    padding: 14px 20px;
+    border: 2px solid #CD2E3A;
+    border-radius: 4px;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#hold_afsnit1 a:hover {
+    background-color: #0047A0;
+    border: 2px solid #0047A0;
+    color: #ffffff;
 }
 
 
@@ -736,6 +759,29 @@ input[type=submit] {
 
 }
 
+#hold_afsnit2 p {
+    margin-bottom: 2.5vw;
+}
+
+#hold_afsnit2 a {
+    background-color: #CD2E3A;
+    color: white;
+    margin-top: 20vw;
+    padding: 14px 20px;
+    border: 2px solid #CD2E3A;
+    border-radius: 4px;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#hold_afsnit2 a:hover {
+    background-color: #0047A0;
+    border: 2px solid #0047A0;
+    color: #ffffff;
+}
+
 #hold_afsnit3 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -766,6 +812,29 @@ input[type=submit] {
 
 }
 
+#hold_afsnit3 p {
+    margin-bottom: 2.5vw;
+}
+
+#hold_afsnit3 a {
+    background-color: #CD2E3A;
+    color: white;
+    margin-top: 20vw;
+    padding: 14px 20px;
+    border: 2px solid #CD2E3A;
+    border-radius: 4px;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#hold_afsnit3 a:hover {
+    background-color: #0047A0;
+    border: 2px solid #0047A0;
+    color: #ffffff;
+}
+
 #hold_afsnit4 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -794,6 +863,29 @@ input[type=submit] {
     margin-left: 10vw;
     width: 30vw;
 
+}
+
+#hold_afsnit4 p {
+    margin-bottom: 2.5vw;
+}
+
+#hold_afsnit4 a {
+    background-color: #CD2E3A;
+    color: white;
+    margin-top: 20vw;
+    padding: 14px 20px;
+    border: 2px solid #CD2E3A;
+    border-radius: 4px;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#hold_afsnit4 a:hover {
+    background-color: #0047A0;
+    border: 2px solid #0047A0;
+    color: #ffffff;
 }
 
 
