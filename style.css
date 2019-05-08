@@ -280,21 +280,74 @@ hidden {
 
 #splash h1 {
     color: white;
+    margin: 15px;
+    padding: 15px;
 }
 
 #splash a {
     background-color: #CD2E3A;
     color: white;
-    padding: 10px;
+    margin: 8px 0;
+    padding: 14px 20px;
+    border: 2px solid #CD2E3A;
+    border-radius: 4px;
     position: relative;
     text-decoration: none;
     font-weight: bold;
     justify-content: center;
 }
 
+#splash a:hover {
+    background-color: #0047A0;
+    border: 2px solid #0047A0;
+    color: #ffffff;
+}
+
 /****************************  SPLASH SLUT  ****************************/
 
+/****************************  BLIV MEDLEM  ****************************/
 
+#forside_taekwondo {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 0px;
+}
+
+#forside_taekwondo .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#forside_taekwondo .col {
+    padding: 15px;
+    margin: 15px;
+}
+
+
+
+#forside_taekwondo a {
+    background-color: #ffffff;
+    color: #0047A0;
+    margin: 8px 0;
+    padding: 14px 20px;
+    border: 2px solid;
+    border-radius: 4px;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#forside_taekwondo a:hover {
+    background-color: #0047A0;
+    border: 2px solid #0047A0;
+    color: #ffffff;
+}
+
+
+/****************************  BLIV MEDLEM SLUT ****************************/
 
 
 /****************************  VIDEO ****************************/
@@ -457,6 +510,50 @@ input[type=submit] {
 }
 
 /****************************  FORSIDE_HOLD SLUT ****************************/
+
+/****************************  BLIV MEDLEM  ****************************/
+
+#nyt {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 0px;
+}
+
+#nyt .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#nyt .col {
+    padding: 15px;
+    margin: 15px;
+}
+
+
+
+
+#nyt a {
+    background-color: #ffffff;
+    color: #0047A0;
+    margin: 8px 0;
+    padding: 14px 20px;
+    border: 2px solid;
+    border-radius: 4px;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#nyt a:hover {
+    background-color: #0047A0;
+    border: 2px solid #0047A0;
+    color: #ffffff;
+}
+
+/****************************  BLIV MEDLEM SLUT ****************************/
 
 /****************************  HOLD ****************************/
 #hold {
@@ -623,38 +720,6 @@ input[type=submit] {
 
 /****************************  HOLD SLUT  ****************************/
 
-
-/****************************  BLIV MEDLEM  ****************************/
-
-#nyt {
-    background-color: #ffffff;
-    padding: 15px;
-    margin: 0px;
-}
-
-#nyt .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-#nyt .col {
-    padding: 15px;
-    margin: 15px;
-}
-
-#nyt a {
-    background-color: #CD2E3A;
-    color: white;
-    padding: 10px;
-    position: relative;
-    text-decoration: none;
-    font-weight: bold;
-    justify-content: center;
-}
-
-/****************************  BLIV MEDLEM SLUT ****************************/
 
 
 
