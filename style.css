@@ -569,9 +569,48 @@ input[type=submit] {
 
 /****************************  BLIV MEDLEM SLUT ****************************/
 
+
+
 /****************************  PROEV   ****************************/
 
+#proev {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 0px;
+}
+
+#proev .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#proev .col {
+    padding: 15px;
+    margin: 15px;
+}
+
+#proev a.team {
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: #CD2E3A;
+}
+
+#proev a.team:visited {
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: #CD2E3A;
+}
+
+#proev a.team:hover {
+    text-decoration-color: #0047A0;
+}
+
 /****************************  PROEV SLUT ****************************/
+
+
+
 
 /****************************  HOLD ****************************/
 
