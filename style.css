@@ -164,6 +164,15 @@ li {
     margin: 5px;
 }
 
+ul {
+    font-family: 'Noto Sans:400', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 0.9rem;
+    line-height: 1.25;
+    margin: 5px;
+}
+
 figcaption {
     font-family: 'Noto Sans:400i', sans-serif;
     font-weight: 400;
@@ -183,11 +192,6 @@ a:hover {
 a {
     font-family: 'Noto Sans:700', sans-serif;
 
-}
-
-hr.streg {
-    border: 2px solid #CD2E3A;
-    width: 50%;
 }
 
 
@@ -532,6 +536,22 @@ input[type=submit] {
 #forside_hold p,
     {
     color: white;
+}
+
+#forside_hold a.team {
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: #CD2E3A;
+}
+
+#forside_hold a.team:visited {
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: #CD2E3A;
+}
+
+#forside_hold a.team:hover {
+    text-decoration-color: #0047A0;
 }
 
 /****************************  FORSIDE_HOLD SLUT ****************************/
@@ -984,6 +1004,13 @@ input[type=submit] {
     margin: 0px;
 }
 
+#instruktoerer .col {
+    padding: 2vw;
+}
+
+#instruktoerer h1 {
+    color: #cd2e3a;
+}
 
 #klubben .sectionwrapper {
     display: flex;
@@ -994,17 +1021,89 @@ input[type=submit] {
 #klubben .colright {
     flex-basis: 300px;
     flex-grow: 1;
+    padding: 2vw;
 }
 
 #klubben .colleft {
     flex-basis: 300px;
     flex-grow: 1;
+    padding: 2vw;
 }
 
-/******OBS: Jeg vil gerne have en max vide på, men det skal være ens på alle siden***/
+#klub_splash .klub_h1 {
+    top: 50vw;
+    position: absolute;
+}
+
+#klub_splash h1 {
+    color: #cd2e3a;
+}
 
 #klubben h2 {
     color: #0047a0;
+    margin-top: 0;
+}
+
+#klubben p {
+    margin-bottom: 15px;
+}
+
+#historie .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#historie .colright {
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 2vw;
+}
+
+#historie .colleft {
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 2vw;
+}
+
+#historie ul {
+    list-style-position: outside;
+    list-style-type: circle;
+}
+
+#historie h1 {
+    color: #cd2e3a;
+}
+
+historie p {
+    margin-bottom: 15px;
+}
+
+#bestyrelsen {
+    background-color: #cd2e3a;
+}
+
+#bestyrelsen .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#bestyrelsen .bestyrelsesbox {
+    margin: 15px;
+    padding: 2vw;
+    background-color: white;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.bestyrelsesbox h3 {
+    color: #0047a9;
+}
+
+#bestyrelsen h1 {
+    color: white;
+    padding-top: 30px;
 }
 
 /****************************  KLUBBEN SLUT  ****************************/
