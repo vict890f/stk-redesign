@@ -14,6 +14,10 @@ body {
     hyphens: auto;
 }
 
+img {
+    width: 100%;
+}
+
 section {
     margin: 10px;
 }
@@ -212,8 +216,6 @@ header nav a:hover {
     text-decoration: none;
 
 }
-
-
 
 hidden {
     /*    display: none;*/
@@ -415,6 +417,7 @@ input[type=submit] {
     background-color: #000000;
     padding: 15px;
     margin: 0px;
+
 }
 
 #forside_hold .sectionwrapper {
@@ -424,18 +427,22 @@ input[type=submit] {
 
 }
 
+<<<<<<< HEAD
 #forside_hold .col {
     /* child flex */
     flex-grow: 1;
     flex-basis: 300px;
     /* parent flex */
+=======
+#hold_info .sectionwrapper {
+>>>>>>> origin/master
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+}
 
-    background-color: white;
-    padding: 15px;
-    margin: 15px;
-    max-width: 500px;
+#hold_info .col {
+    flex-basis: 300px;
+    flex-grow: 1;
 }
 
 #forside_hold .top {
@@ -447,12 +454,143 @@ input[type=submit] {
 
 }
 
+<<<<<<< HEAD
 #forside_hold h3,
 #forside_hold p,
     {
+=======
+#hold_splash {
+    width: 100vw;
+    height: 100vh;
+    max-width: none;
+    background-image: url(assets/billede1.jpg);
+    background-size: cover;
+    background-position: 50% 0%, 5% 0%;
+}
+
+#hold_splash .col {
+    padding-top: 20vw;
+    padding-left: 10vw;
+}
+
+#hold_splash h2 {
     color: white;
 }
 
+#hold_splash p {
+    color: red;
+}
+
+#hold_splash2 {
+    width: 100vw;
+    height: 100vh;
+    max-width: none;
+    background-image: url(assets/billede1.jpg);
+    background-size: cover;
+    background-position: 50% 0%, 5% 0%;
+}
+
+
+#hold_splash2 .col {
+    padding-top: 20vw;
+    padding-left: 10vw;
+}
+
+#hold_splash2 h2 {
+    color: white;
+}
+
+#hold_splash2 p {
+    color: red;
+}
+
+#hold_splash3 {
+    width: 100vw;
+    height: 100vh;
+    max-width: none;
+    background-image: url(assets/billede1.jpg);
+    background-size: cover;
+    background-position: 50% 0%, 5% 0%;
+}
+
+
+#hold_splash3 .col {
+    padding-top: 20vw;
+    padding-left: 10vw;
+}
+
+#hold_splash3 h2 {
+>>>>>>> origin/master
+    color: white;
+}
+
+<<<<<<< HEAD
+#hold_splash3 p {
+    color: red;
+}
+
+#knap {
+    margin-top: 1vw;
+    width: 10vw;
+    height: 2vw;
+    background-color: blue;
+}
+
+#hold_afsnit .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#hold_afsnit .col {
+    /*parent instillinger*/
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    /*    child instillinger   */
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#hold_afsnit h3 {
+    color: red;
+    margin-bottom: 0;
+}
+
+.break {
+    height: 10vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+#korea_break1 {
+    background-image: url(assets/korea_break1.png);
+
+}
+
+#korea_break2 {
+    background-image: url(assets/korea_break2.png);
+}
+
+#korea_break3 {
+    background-image: url(assets/korea_break3.png);
+}
+
+#korea_break4 {
+    background-image: url(assets/korea_break4.png);
+}
+
+
+
+
+=======
+>>>>>>> origin/master
 
 
 /****************************  FORSIDE_HOLD SLUT  ****************************/
@@ -500,6 +638,32 @@ input[type=submit] {
 
 /****************************  KLUBBEN  ****************************/
 
+#klub_splash {
+    background-image: url(filer/fotos/billede_1.png);
+    width: 100vw;
+    height: 66.6vw;
+    background-size: cover;
+    max-width: none;
+    margin: 0px;
+}
+
+#historie_splash{
+    background-image: url(filer/fotos/billede_1.png);
+    width: 100vw;
+    height: 66.6vw;
+    background-size: cover;
+    max-width: none;
+    margin: 0px;
+}
+
+#instruktoerer_splash{
+    background-image: url(filer/fotos/billede_1.png);
+    width: 100vw;
+    height: 66.6vw;
+    background-size: cover;
+    max-width: none;
+    margin: 0px;
+}
 /****************************  KLUBBEN SLUT  ****************************/
 
 
