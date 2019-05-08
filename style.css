@@ -510,8 +510,7 @@ input[type=submit] {
     color: white;
 }
 
-<<<<<<< HEAD
-#hold_splash3 p {
+<<<<<<< HEAD #hold_splash3 p {
     color: red;
 }
 
@@ -575,10 +574,7 @@ input[type=submit] {
 
 
 
-=======
->>>>>>> origin/master
-
-
+======= > > > > > > > origin/master
 /****************************  HOLD SLUT  ****************************/
 
 
@@ -633,7 +629,7 @@ input[type=submit] {
     margin: 0px;
 }
 
-#historie_splash{
+#historie_splash {
     background-image: url(filer/fotos/billede_1.png);
     width: 100vw;
     height: 66.6vw;
@@ -642,7 +638,7 @@ input[type=submit] {
     margin: 0px;
 }
 
-#instruktoerer_splash{
+#instruktoerer_splash {
     background-image: url(filer/fotos/billede_1.png);
     width: 100vw;
     height: 66.6vw;
@@ -650,6 +646,30 @@ input[type=submit] {
     max-width: none;
     margin: 0px;
 }
+
+#klubben .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#klubben .colright {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#klubben .colleft {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+/******OBS: Jeg vil gerne have en max vide på, men det skal være ens på alle siden***/
+
+#klubben h2 {
+    color: #0047a0;
+}
+
+
 /****************************  KLUBBEN SLUT  ****************************/
 
 
