@@ -507,6 +507,22 @@ input[type=submit] {
     color: white;
 }
 
+#forside_hold a.team {
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: #CD2E3A;
+}
+
+#forside_hold a.team:visited {
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: #CD2E3A;
+}
+
+#forside_hold a.team:hover {
+    text-decoration-color: #0047A0;
+}
+
 /****************************  FORSIDE_HOLD SLUT ****************************/
 
 /****************************  BLIV MEDLEM  ****************************/
