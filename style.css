@@ -261,9 +261,7 @@ header nav a:hover {
 
 }
 
-hidden {
-    /*    display: none;*/
-    /*    transform: scale(0);*/
+.hidden {
     transform: translateX(-100%);
     opacity: 0;
 }
@@ -274,12 +272,10 @@ hidden {
 
 #menu {
     list-style-type: none;
-    transition: transform .3s;
-    transform-origin: top left;
+    transition: transform .0s;
 }
 
-@media only screen and (min-width: 600px) {
-
+@media only screen and (min-width:600px) {
     #menuknap {
         display: none;
     }
@@ -293,6 +289,7 @@ hidden {
         display: inline-block;
     }
 }
+
 
 /****************************  MENU SLUT  ****************************/
 

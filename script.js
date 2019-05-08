@@ -2,12 +2,8 @@ window.addEventListener("load", sidenVises);
 
 function sidenVises() {
     console.log("sidenVises");
-
     document.querySelector("#menuknap").addEventListener("click", toggleMenu);
-
-
 }
-
 
 function toggleMenu() {
     console.log("toggleMenu");
@@ -18,6 +14,6 @@ function toggleMenu() {
     if (erSkjult == true) {
         document.querySelector("#menuknap").textContent = "☰";
     } else {
-        document.querySelector("#menuknap").textContent = "X";
+        document.querySelector("menuknap").textContent = "X";
     }
 }
