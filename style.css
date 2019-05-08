@@ -410,7 +410,53 @@ input[type=submit] {
 
 
 
-/****************************  HOLD  ****************************/
+/****************************  FORSIDE_HOLD  ****************************/
+
+#forside_hold {
+    background-color: #000000;
+    padding: 15px;
+    margin: 0px;
+}
+
+#forside_hold .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#forside_hold .col {
+    /* child flex */
+    flex-grow: 1;
+    flex-basis: 300px;
+    /* parent flex */
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    max-width: 500px;
+}
+
+#forside_hold .top {
+    margin: 15px;
+}
+
+#forside_hold .bottom {
+    margin: 15px;
+
+}
+
+#forside_hold h3,
+#forside_hold p,
+    {
+    color: white;
+}
+
+/****************************  FORSIDE_HOLD SLUT ****************************/
+
+/****************************  HOLD ****************************/
 #hold {
     background-color: #000000;
     padding: 15px;
@@ -425,6 +471,8 @@ input[type=submit] {
 
 }
 
+
+
 #hold_info .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -435,14 +483,15 @@ input[type=submit] {
     flex-grow: 1;
 }
 
-#hold .top {
+#forside_hold .top {
     margin: 15px;
 }
 
-#hold .bottom {
+#forside_hold .bottom {
     margin: 15px;
 
 }
+
 
 #hold_splash {
     width: 100vw;
@@ -508,7 +557,7 @@ input[type=submit] {
     color: white;
 }
 
-<<<<<<< HEAD #hold_splash3 p {
+#hold_splash3 p {
     color: red;
 }
 
@@ -570,9 +619,7 @@ input[type=submit] {
 }
 
 
-
-
-======= > > > > > > > origin/master
+<<<<<<< HEAD======= > > > > > > > origin/master======= > > > > > > > origin/master
 /****************************  HOLD SLUT  ****************************/
 
 
