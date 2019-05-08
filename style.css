@@ -668,6 +668,14 @@ input[type=submit] {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+#facebook .col {
+    margin: 15px;
+    padding: 15px;
 
 }
 
