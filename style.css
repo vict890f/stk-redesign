@@ -51,16 +51,22 @@ footer .wrapper {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    border: 2px solid #CD2E3A;
 }
 
 #footer_col1 {
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 250px;
+    margin-left: 10vw;
 }
 
-#footer_col1 figure {
-    width: 200px;
+#footer_col2 figure {
+    width: 110px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 20px;
 }
 
 #footer_col2 {
@@ -68,13 +74,19 @@ footer .wrapper {
     flex-basis: 200px;
     display: flex;
     flex-wrap: wrap;
-    max-width: 15vw;
+    max-width: 250px;
+    margin-left: 10vw;
 
 }
 
 #footer_col3 {
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 250px;
+    margin-left: 10vw;
+
 
 }
 
@@ -91,14 +103,14 @@ footer .wrapper ul {
 #footer_col2 .dage {
     /* child flex */
     flex-grow: 1;
-    flex-basis: 50px;
+    flex-basis: 100px;
 
 }
 
 #footer_col2 .tider {
     /* child flex */
     flex-grow: 1;
-    flex-basis: 50px;
+    flex-basis: 100px;
 }
 
 footer ul,
