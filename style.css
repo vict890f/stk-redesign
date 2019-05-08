@@ -206,6 +206,7 @@ header {
     padding: 20px 10px;
     width: 100%;
     margin: 0rem;
+
 }
 
 nav {
@@ -213,6 +214,8 @@ nav {
     flex-wrap: wrap;
     text-align: center;
     background-size: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 header nav a {
@@ -337,7 +340,7 @@ hidden {
 /****************************  BLIV MEDLEM  ****************************/
 
 #forside_taekwondo {
-    background-color: #ffffff;
+    background-color: #0047A0;
     padding: 15px;
     margin: 0px;
 }
@@ -375,6 +378,10 @@ hidden {
     color: #ffffff;
 }
 
+#forside_taekwondo h1,
+#forside_taekwondo p {
+    color: #ffffff;
+}
 
 /****************************  BLIV MEDLEM SLUT ****************************/
 
@@ -382,7 +389,7 @@ hidden {
 /****************************  VIDEO ****************************/
 
 #film {
-    background-color: #CD2E3A;
+    background-color: #ffffff;
     padding: 15px;
     margin: 0px;
 }
@@ -401,14 +408,19 @@ hidden {
     padding: 15px;
 }
 
-#film .video {}
+#film .video {
+    height: 100%;
+    position: absolute;
+}
+
+
 
 /****************************  VIDEO SLUT  ****************************/
 
 /****************************  FORSIDE_HOLD  ****************************/
 
 #forside_hold {
-    background-color: #000000;
+    background-color: #CD2E3A;
     padding: 15px;
     margin: 0px;
 }
@@ -443,10 +455,8 @@ hidden {
 
 }
 
-#forside_hold h3,
-#forside_hold p,
-    {
-    color: white;
+#forside_hold h3 {
+    color: #CD2E3A;
 }
 
 #forside_hold a.team {
@@ -1188,6 +1198,13 @@ historie p {
         margin-top: 80px;
         background-position: 80% 0%;
     }
+
+    .nav {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
 }
 
 @media (orientation: landscape) {
