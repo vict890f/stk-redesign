@@ -47,18 +47,46 @@ footer {
 
 }
 
-#footer .wrapper {
+footer .wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     flex-direction: row;
 }
 
-#footer .col {
+#footer_col1 {
     flex-grow: 1;
-    flex-basis: 400px;
-    margin: 15px;
-    padding: 15px;
+    flex-basis: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 250px;
+    margin-left: 10vw;
+}
+
+#footer_col2 figure {
+    width: 110px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+}
+
+#footer_col2 {
+    flex-grow: 1;
+    flex-basis: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 250px;
+    margin-left: 10vw;
+
+}
+
+#footer_col3 {
+    flex-grow: 1;
+    flex-basis: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 250px;
+    margin-left: 10vw;
+
 
 }
 
@@ -72,7 +100,18 @@ footer .wrapper ul {
     padding: 0;
 }
 
+#footer_col2 .dage {
+    /* child flex */
+    flex-grow: 1;
+    flex-basis: 100px;
 
+}
+
+#footer_col2 .tider {
+    /* child flex */
+    flex-grow: 1;
+    flex-basis: 100px;
+}
 
 footer ul,
 footer p {
@@ -167,11 +206,6 @@ a {
 
 }
 
-hr.streg {
-    border: 2px solid #CD2E3A;
-    width: 50%;
-}
-
 
 /**************************** TYPOGRAFI SLUT ****************************/
 
@@ -184,6 +218,7 @@ header {
     padding: 20px 10px;
     width: 100%;
     margin: 0rem;
+
 }
 
 nav {
@@ -191,6 +226,8 @@ nav {
     flex-wrap: wrap;
     text-align: center;
     background-size: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 header nav a {
@@ -315,7 +352,7 @@ hidden {
 /****************************  BLIV MEDLEM  ****************************/
 
 #forside_taekwondo {
-    background-color: #ffffff;
+    background-color: #0047A0;
     padding: 15px;
     margin: 0px;
 }
@@ -353,6 +390,10 @@ hidden {
     color: #ffffff;
 }
 
+#forside_taekwondo h1,
+#forside_taekwondo p {
+    color: #ffffff;
+}
 
 /****************************  BLIV MEDLEM SLUT ****************************/
 
@@ -360,7 +401,7 @@ hidden {
 /****************************  VIDEO ****************************/
 
 #film {
-    background-color: #CD2E3A;
+    background-color: #ffffff;
     padding: 15px;
     margin: 0px;
 }
@@ -379,11 +420,74 @@ hidden {
     padding: 15px;
 }
 
-#film .video {}
+#film .video {
+    height: 100%;
+    position: absolute;
+}
+
+
 
 /****************************  VIDEO SLUT  ****************************/
 
+/****************************  FORSIDE_HOLD  ****************************/
 
+#forside_hold {
+    background-color: #CD2E3A;
+    padding: 15px;
+    margin: 0px;
+}
+
+#forside_hold .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#forside_hold .col {
+    /* child flex */
+    flex-grow: 1;
+    flex-basis: 300px;
+    /* parent flex */
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    max-width: 500px;
+}
+
+#forside_hold .top {
+    margin: 15px;
+}
+
+#forside_hold .bottom {
+    margin: 15px;
+
+}
+
+#forside_hold h3 {
+    color: #CD2E3A;
+}
+
+#forside_hold a.team {
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: #CD2E3A;
+}
+
+#forside_hold a.team:visited {
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: #CD2E3A;
+}
+
+#forside_hold a.team:hover {
+    text-decoration-color: #0047A0;
+}
+
+/****************************  FORSIDE_HOLD SLUT ****************************/
 
 
 /****************************  NYHEDSBREV  ****************************/
@@ -472,68 +576,6 @@ input[type=submit] {
 
 
 
-/****************************  FORSIDE_HOLD  ****************************/
-
-#forside_hold {
-    background-color: #000000;
-    padding: 15px;
-    margin: 0px;
-}
-
-#forside_hold .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-#forside_hold .col {
-    /* child flex */
-    flex-grow: 1;
-    flex-basis: 300px;
-    /* parent flex */
-    display: flex;
-    flex-direction: column;
-
-    background-color: white;
-    padding: 15px;
-    margin: 15px;
-    max-width: 500px;
-}
-
-#forside_hold .top {
-    margin: 15px;
-}
-
-#forside_hold .bottom {
-    margin: 15px;
-
-}
-
-#forside_hold h3,
-#forside_hold p,
-    {
-    color: white;
-}
-
-#forside_hold a.team {
-    color: black;
-    text-decoration-line: underline;
-    text-decoration-color: #CD2E3A;
-}
-
-#forside_hold a.team:visited {
-    color: black;
-    text-decoration-line: underline;
-    text-decoration-color: #CD2E3A;
-}
-
-#forside_hold a.team:hover {
-    text-decoration-color: #0047A0;
-}
-
-/****************************  FORSIDE_HOLD SLUT ****************************/
-
 /****************************  BLIV MEDLEM  ****************************/
 
 #nyt {
@@ -553,8 +595,6 @@ input[type=submit] {
     padding: 15px;
     margin: 15px;
 }
-
-
 
 
 #nyt a {
@@ -577,6 +617,64 @@ input[type=submit] {
 }
 
 /****************************  BLIV MEDLEM SLUT ****************************/
+
+
+
+/****************************  PROEV   ****************************/
+
+#proev {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 0px;
+}
+
+#proev .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#proev .col {
+    padding: 15px;
+    margin: 15px;
+}
+
+#proev a.team {
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: #CD2E3A;
+}
+
+#proev a.team:visited {
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: #CD2E3A;
+}
+
+#proev a.team:hover {
+    text-decoration-color: #0047A0;
+}
+
+/****************************  PROEV SLUT ****************************/
+
+/****************************  FACEBOOK LOGO TIL FOOTER  ****************************/
+
+#facebook {
+    background-color: #CD2E3A;
+    padding: 15px;
+    margin: 0px;
+
+}
+
+#facebook .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
 
 /****************************  HOLD ****************************/
 
@@ -602,15 +700,6 @@ input[type=submit] {
 #hold_info .col {
     flex-basis: 300px;
     flex-grow: 1;
-}
-
-#forside_hold .top {
-    margin: 15px;
-}
-
-#forside_hold .bottom {
-    margin: 15px;
-
 }
 
 
@@ -1117,6 +1206,75 @@ historie p {
 
 /****************************  MEDIER  ****************************/
 
+
+.masonry {
+    /* Masonry container */
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 1em;
+    -moz-column-gap: 1em;
+    column-gap: 1em;
+    margin: 1.5em;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+}
+
+.item {
+    display: inline-block;
+    background: #fff;
+    padding: 1em;
+    margin: 0 0 1.5em;
+    width: 100%;
+    -webkit-transition: 1s ease all;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 2px 2px 4px 0 #ccc;
+}
+
+.item img {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 320px) {
+    .masonry {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .masonry {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .masonry {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}
+
+
+
+
 /****************************  MEDIER SLUT  ****************************/
 
 
@@ -1151,6 +1309,13 @@ historie p {
         margin-top: 80px;
         background-position: 80% 0%;
     }
+
+    .nav {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
 }
 
 @media (orientation: landscape) {
