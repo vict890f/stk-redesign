@@ -410,21 +410,21 @@ input[type=submit] {
 
 
 
-/****************************  HOLD  ****************************/
-#hold {
+/****************************  FORSIDE_HOLD  ****************************/
+#forside_hold {
     background-color: #000000;
     padding: 15px;
     margin: 0px;
 }
 
-#hold .sectionwrapper {
+#forside_hold .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 }
 
-#hold .col {
+#forside_hold .col {
     /* child flex */
     flex-grow: 1;
     flex-basis: 300px;
@@ -438,24 +438,24 @@ input[type=submit] {
     max-width: 500px;
 }
 
-#hold .top {
+#forside_hold .top {
     margin: 15px;
 }
 
-#hold .bottom {
+#forside_hold .bottom {
     margin: 15px;
 
 }
 
-#hold h3,
-#hold p,
+#forside_hold h3,
+#forside_hold p,
     {
     color: white;
 }
 
 
 
-/****************************  HOLD SLUT  ****************************/
+/****************************  FORSIDE_HOLD SLUT  ****************************/
 
 
 /****************************  BLIV MEDLEM  ****************************/
