@@ -47,18 +47,34 @@ footer {
 
 }
 
-#footer .wrapper {
+footer .wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     flex-direction: row;
+    border: 2px solid #CD2E3A;
 }
 
-#footer .col {
+#footer_col1 {
     flex-grow: 1;
-    flex-basis: 400px;
-    margin: 15px;
-    padding: 15px;
+    flex-basis: 300px;
+}
+
+#footer_col1 figure {
+    width: 200px;
+}
+
+#footer_col2 {
+    flex-grow: 1;
+    flex-basis: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 15vw;
+
+}
+
+#footer_col3 {
+    flex-grow: 1;
+    flex-basis: 300px;
 
 }
 
@@ -72,7 +88,18 @@ footer .wrapper ul {
     padding: 0;
 }
 
+#footer_col2 .dage {
+    /* child flex */
+    flex-grow: 1;
+    flex-basis: 50px;
 
+}
+
+#footer_col2 .tider {
+    /* child flex */
+    flex-grow: 1;
+    flex-basis: 50px;
+}
 
 footer ul,
 footer p {
