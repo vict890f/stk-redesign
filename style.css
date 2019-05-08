@@ -378,7 +378,67 @@ hidden {
 
 /****************************  VIDEO SLUT  ****************************/
 
+/****************************  FORSIDE_HOLD  ****************************/
 
+#forside_hold {
+    background-color: #000000;
+    padding: 15px;
+    margin: 0px;
+}
+
+#forside_hold .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#forside_hold .col {
+    /* child flex */
+    flex-grow: 1;
+    flex-basis: 300px;
+    /* parent flex */
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    max-width: 500px;
+}
+
+#forside_hold .top {
+    margin: 15px;
+}
+
+#forside_hold .bottom {
+    margin: 15px;
+
+}
+
+#forside_hold h3,
+#forside_hold p,
+    {
+    color: white;
+}
+
+#forside_hold a.team {
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: #CD2E3A;
+}
+
+#forside_hold a.team:visited {
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: #CD2E3A;
+}
+
+#forside_hold a.team:hover {
+    text-decoration-color: #0047A0;
+}
+
+/****************************  FORSIDE_HOLD SLUT ****************************/
 
 
 /****************************  NYHEDSBREV  ****************************/
@@ -467,68 +527,6 @@ input[type=submit] {
 
 
 
-/****************************  FORSIDE_HOLD  ****************************/
-
-#forside_hold {
-    background-color: #000000;
-    padding: 15px;
-    margin: 0px;
-}
-
-#forside_hold .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-#forside_hold .col {
-    /* child flex */
-    flex-grow: 1;
-    flex-basis: 300px;
-    /* parent flex */
-    display: flex;
-    flex-direction: column;
-
-    background-color: white;
-    padding: 15px;
-    margin: 15px;
-    max-width: 500px;
-}
-
-#forside_hold .top {
-    margin: 15px;
-}
-
-#forside_hold .bottom {
-    margin: 15px;
-
-}
-
-#forside_hold h3,
-#forside_hold p,
-    {
-    color: white;
-}
-
-#forside_hold a.team {
-    color: black;
-    text-decoration-line: underline;
-    text-decoration-color: #CD2E3A;
-}
-
-#forside_hold a.team:visited {
-    color: black;
-    text-decoration-line: underline;
-    text-decoration-color: #CD2E3A;
-}
-
-#forside_hold a.team:hover {
-    text-decoration-color: #0047A0;
-}
-
-/****************************  FORSIDE_HOLD SLUT ****************************/
-
 /****************************  BLIV MEDLEM  ****************************/
 
 #nyt {
@@ -548,8 +546,6 @@ input[type=submit] {
     padding: 15px;
     margin: 15px;
 }
-
-
 
 
 #nyt a {
@@ -572,6 +568,10 @@ input[type=submit] {
 }
 
 /****************************  BLIV MEDLEM SLUT ****************************/
+
+/****************************  PROEV   ****************************/
+
+/****************************  PROEV SLUT ****************************/
 
 /****************************  HOLD ****************************/
 
@@ -597,15 +597,6 @@ input[type=submit] {
 #hold_info .col {
     flex-basis: 300px;
     flex-grow: 1;
-}
-
-#forside_hold .top {
-    margin: 15px;
-}
-
-#forside_hold .bottom {
-    margin: 15px;
-
 }
 
 
