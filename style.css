@@ -1279,6 +1279,16 @@ historie p {
     margin-top: 7vw;
 }
 
+.tkd_txt h2 {
+    font-family: 'Noto Sans:700', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #0047A0;
+    padding: 0px;
+    margin-left: 7vw;
+    margin-top: 7vw;
+}
+
 .tkd_txt p {
     font-family: 'Noto Sans:400', sans-serif;
     font-weight: 400;
@@ -1298,17 +1308,27 @@ historie p {
     margin-right: 7vw;
 }
 
-/*.tkd_txt {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
+#tkd_splash {
+
+    width: 100%;
+    height: 40vw;
+    background-color: black;
+    background-size: cover;
+    background-position: 80% 0%;
+    max-width: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10vw;
+    position: relative;
 }
 
-.tkd_txt .col_left {
-    flex-grow: 1;
-    flex-basis: 600px;
-}*/
+#tkd_splash h1 {
+    color: white;
+    margin: 10px;
+    margin-top: 15vw;
+    margin-left: 16vw;
+    padding: 10px;
+}
 
 /****************************  TAEKWONDO SLUT  ****************************/
 
