@@ -1069,7 +1069,7 @@ FORSIDE SLUT ********************************************** ********************
 /****************************  KLUBBEN  ****************************/
 
 #klub_splash {
-    background-image: url(filer/fotos/billede_1.png);
+    background-image: url(filer/fotos/klub1.jpg);
     width: 100vw;
     height: 66.6vw;
     background-size: cover;
@@ -1078,7 +1078,7 @@ FORSIDE SLUT ********************************************** ********************
 }
 
 #historie_splash {
-    background-image: url(filer/fotos/billede_1.png);
+    background-image: url(filer/fotos/klub3.jpg);
     width: 100vw;
     height: 66.6vw;
     background-size: cover;
@@ -1087,7 +1087,7 @@ FORSIDE SLUT ********************************************** ********************
 }
 
 #instruktoerer_splash {
-    background-image: url(filer/fotos/billede_1.png);
+    background-image: url(filer/fotos/klub2.jpg);
     width: 100vw;
     height: 66.6vw;
     background-size: cover;
@@ -1117,6 +1117,7 @@ FORSIDE SLUT ********************************************** ********************
 
 #instruktoerer h1 {
     color: #cd2e3a;
+    padding-top: 30px;
 }
 
 #klubben .sectionwrapper {
@@ -1137,12 +1138,8 @@ FORSIDE SLUT ********************************************** ********************
     padding: 2vw;
 }
 
-#klub_splash .klub_h1 {
-    top: 50vw;
-    position: absolute;
-}
-
 #klub_splash h1 {
+    padding-top: 30px;
     color: #cd2e3a;
 }
 
@@ -1180,6 +1177,7 @@ FORSIDE SLUT ********************************************** ********************
 
 #historie h1 {
     color: #cd2e3a;
+    padding-top: 30px;
 }
 
 historie p {
@@ -1209,7 +1207,7 @@ historie p {
 }
 
 #bestyrelsen h1 {
-    color: white;
+    color: #cd2e3a;
     padding-top: 30px;
 }
 
