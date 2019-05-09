@@ -361,7 +361,7 @@ header nav a:hover {
 
 #forside_taekwondo {
     padding: 15px;
-    margin: 0px;
+    margin-left: 10vw;
 }
 
 #forside_taekwondo .sectionwrapper {
@@ -598,6 +598,7 @@ input[type=submit] {
     background-color: #ffffff;
     padding: 15px;
     margin: 0px;
+    margin-left: 10vw;
 }
 
 #nyt .sectionwrapper {
@@ -608,8 +609,15 @@ input[type=submit] {
 }
 
 #nyt .col {
+    flex-basis: 500px;
+    flex-grow: 1;
     padding: 15px;
     margin: 15px;
+}
+
+#nyt figure {
+    margin-left: 10vw;
+    max-width: 50%;
 }
 
 
@@ -638,38 +646,61 @@ input[type=submit] {
 
 /****************************  PROEV   ****************************/
 
-#proev {
-    background-color: #ffffff;
-    padding: 15px;
-    margin: 0px;
-}
 
-#proev .sectionwrapper {
+#splash_proev {
+    width: 100%;
+    height: 60vw;
+    background-image: url(assets/billede1.jpg);
+    background-size: cover;
+    background-position: 80% 0%;
+    max-width: none;
+    padding: 15vw;
+    ;
+    margin-top: 20px;
+    position: relative;
+
+
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    resize: both;
+    overflow: auto;
 
 }
 
-#proev .col {
-    padding: 15px;
-    margin: 15px;
+#splash_proev h2 {
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: white;
+    margin: 10px;
+    padding: 10px;
 }
 
-#proev a.team {
-    color: black;
-    text-decoration-line: underline;
-    text-decoration-color: #CD2E3A;
+#splash_proev h3 {
+    color: white;
+    font-family: 'Noto Sans KR:400', sans-serif;
+    margin: 10px;
+    padding: 10px;
 }
 
-#proev a.team:visited {
-    color: black;
-    text-decoration-line: underline;
-    text-decoration-color: #CD2E3A;
+#splash_proev a {
+    background-color: #CD2E3A;
+    color: white;
+    margin: 8px 0;
+    padding: 14px 20px;
+    border: 2px solid #CD2E3A;
+    border-radius: 4px;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
 }
 
-#proev a.team:hover {
-    text-decoration-color: #0047A0;
+#splash_proev a:hover {
+    background-color: #0047A0;
+    border: 2px solid #0047A0;
+    color: #ffffff;
 }
 
 /****************************  FORSIDE: PROEV SLUT ****************************/
@@ -677,22 +708,19 @@ input[type=submit] {
 /****************************  FORSIDE: FACEBOOK LOGO   ****************************/
 
 #facebook {
-    background-color: #CD2E3A;
-    padding: 15px;
     margin: 0px;
 
 }
 
 
 #facebook .col {
-    width: 42px;
-    height: 42px;
+    width: 4vw;
+    height: 4vw;
 
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
+
 }
 
 /***********************  FORSIDE: FACEBOOK LOGO SLUT ***********************/
