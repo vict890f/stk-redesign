@@ -207,9 +207,10 @@ a {
 
 header {
     background-color: #ffffff;
-
+    position: fixed;
+    overflow: hidden;
     top: 0;
-    padding: 20px 10px;
+
     width: 100%;
     margin: 0rem;
 
@@ -220,6 +221,8 @@ nav {
     flex-wrap: wrap;
     text-align: center;*/
     background-size: 100%;
+    overflow: hidden;
+    padding: 20px 10px;
 
 }
 
@@ -248,11 +251,23 @@ header nav a:active {
     background-color: #CD2E3A;
 }
 
+header ul {
+    color: white;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+
+}
+
+header li {}
+
+
 header nav a:hover {
     color: white;
     text-decoration: none;
 
 }
+
 
 .hidden {
     transform: translateX(-100%);
@@ -261,6 +276,7 @@ header nav a:hover {
 
 #menuknap {
     display: inline-block;
+    position: absolute;
     font-family: 'Noto Sans:400', sans-serif;
     font-weight: bold;
     font-size: 0.85rem;
@@ -307,7 +323,7 @@ header nav a:hover {
     background-position: 80% 0%;
     max-width: none;
     padding: 0;
-    margin-top: 10px;
+    margin-top: 60px;
     margin: 0;
     position: relative;
 
@@ -1550,7 +1566,7 @@ historie p {
 
         background-position: 80% 0%;
         position: relative;
-
+        margin-top: 60px;
     }
 
 }
@@ -1560,7 +1576,7 @@ historie p {
         width: 100vw;
         height: 46.25vw;
         background-position: 80% 0%;
-        margin-top: 10px;
+        margin-top: 60px;
         position: relative;
     }
 
@@ -1569,7 +1585,7 @@ historie p {
 @media only screen and (min-width: 800px) {
 
     #splash {
-        margin-top: 10px;
+        margin-top: 60px;
         background-position: 80% 0%;
     }
 
