@@ -1,4 +1,5 @@
 /****************************  GENERELT ****************************/
+
 * {
     box-sizing: border-box;
 }
@@ -321,8 +322,15 @@ header nav a:hover {
 
 #splash h1 {
     color: white;
-    margin: 15px;
-    padding: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#splash h3 {
+    color: white;
+    font-family: 'Noto Sans KR:400', sans-serif;
+    margin: 10px;
+    padding: 10px;
 }
 
 #splash a {
@@ -563,17 +571,22 @@ input[type=submit] {
 
 
 #nyhedsbrev h1,
-#nyhedsbrev h2,
 #nyhedsbrev h3,
 #nyhedsbrev p {
     color: white;
 }
 
+#nyhedsbrev h2 {
+    font-family: 'Black Han Sans', sans-serif;
+    color: white;
+}
+
+
 /****************************  NYHEDSBREV SLUT  ****************************/
 
 
 
-/****************************  BLIV MEDLEM  ****************************/
+/****************************  FORSIDE: BLIV MEDLEM  ****************************/
 
 #nyt {
     background-color: #ffffff;
@@ -613,7 +626,7 @@ input[type=submit] {
     color: #ffffff;
 }
 
-/****************************  BLIV MEDLEM SLUT ****************************/
+/****************************  FORSIDE: BLIV MEDLEM SLUT ****************************/
 
 
 
@@ -653,9 +666,9 @@ input[type=submit] {
     text-decoration-color: #0047A0;
 }
 
-/****************************  PROEV SLUT ****************************/
+/****************************  FORSIDE: PROEV SLUT ****************************/
 
-/****************************  FACEBOOK LOGO TIL FOOTER  ****************************/
+/****************************  FORSIDE: FACEBOOK LOGO   ****************************/
 
 #facebook {
     background-color: #CD2E3A;
@@ -675,6 +688,16 @@ input[type=submit] {
     margin-top: 5vw;
     margin-bottom: 5vw;
 }
+
+/***********************  FORSIDE: FACEBOOK LOGO SLUT ***********************/
+
+
+
+/*********************************************************************************************************************
+***********************************************************
+FORSIDE SLUT ********************************************** **********************************************************************************************************************
+**********************************************************/
+
 
 
 
@@ -1201,6 +1224,108 @@ historie p {
 
 
 /****************************  MEDLEM  ****************************/
+
+#tilmeld_nu {
+    background-color: white;
+    padding: 15px;
+    margin: 0px;
+
+}
+
+#tilmeld_nu .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+#tilmeld_nu .col {
+    flex-grow: 1;
+    flex-basis: 400px;
+    padding: 30px;
+    margin: 30px;
+    max-width: 600px;
+    border-radius: 5px;
+    background-color: #0047A0;
+}
+
+
+#tilmeld_nu .signup {}
+
+
+#tilmeld_nu input[type=text],
+#tilmeld_nu input[type=number],
+#tilmeld_nu input[type=date],
+#tilmeld_nu input[type=tel],
+#tilmeld_nu input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #0047A0;
+    border-radius: 4px;
+    background-color: #E4E4E4;
+
+}
+
+#tilmeld_nu input[type=email]:focus {
+    background-color: white;
+
+
+}
+
+#tilmeld_nu input[type=submit] {
+    width: 100%;
+    background-color: #0047A0;
+    color: #ffffff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#tilmeld_nu input[type=submit]:hover {
+    background-color: #ffffff;
+    color: #0047A0;
+}
+
+
+#tilmeld_nu .txt,
+#tilmeld_nu .firstname,
+#tilmeld_nu .lastname,
+#tilmeld_nu .adresse,
+#tilmeld_nu .post,
+#tilmeld_nu .by,
+#tilmeld_nu .bday,
+#tilmeld_nu .nummer,
+#tilmeld_nu .email {
+    color: #0047A0;
+}
+
+#tilmeld_nu .button {
+    color: #ffffff;
+    background-color: #0047A0;
+    font-weight: bold;
+}
+
+#tilmeld_nu .form {
+    color: #0047A0;
+}
+
+
+
+#tilmeld_nu h1,
+#tilmeld_nu h3,
+#tilmeld_nu p {
+    color: white;
+}
+
+#tilmeld_nu h2 {
+    font-family: 'Black Han Sans', sans-serif;
+    color: white;
+}
 
 /****************************  MEDLEM SLUT  ****************************/
 

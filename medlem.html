@@ -7,7 +7,7 @@
     <title>Redesign af website</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="robots" content="noindex">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700|Noto+Sans:400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Noto+Sans+KR|Noto+Sans:400,400i,700" rel="stylesheet">
     <script src="script.js"></script>
 </head>
 
@@ -28,12 +28,58 @@
         </div>
     </header>
 
-    <section id="klubben">
-        <h1>Klubben</h1>
+    <section id="tilmeld_info">
         <div class="sectionwrapper">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam commodi magnam vero molestias assumenda, maiores eveniet minus adipisci reiciendis. Natus non inventore, dolorem magnam asperiores totam praesentium. Nulla, architecto, rem?</p>
         </div>
     </section>
+
+    <section id="tilmeld_nu">
+        <div class="sectionwrapper">
+
+            <div class="col">
+                <div class="foto">
+                    <figure>
+                        <img src="filer/fotos/panda-holdet.jpg" alt="billede">
+                    </figure>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="txt">
+                    <h1>Indmeldelsesformular</h1>
+                    <p>Du kan enten udfylde denne indmeldelsesformular, eller udskrive og udfylde en indmeldelsesblanket, som du afleverer til træneren i klubben.</p>
+                </div>
+
+                <div class="signup">
+
+                    <form action="/action_page.php" method="get" id="nameform">
+
+                        <input type="text" name="firstname" placeholder="Dit fornavn" class="firstname">
+
+                        <input type="text" name="lastname" placeholder="Dit efternavn" class="lastname">
+
+                        <input type="text" name="adresse" placeholder="Din adresse" class="adresse">
+
+                        <input type="number" name="post" placeholder="Post nummer" class="post">
+
+                        <input type="text" name="by" placeholder="By" class="by">
+
+                        <input type="date" name="bday" placeholder="Fødselsdato" class="bday">
+
+                        <input type="tel" name="nummer" placeholder="Telefon nummer" class="nummer">
+
+                        <input type="email" name="emailaddress" placeholder="Din mailadresse" class="email">
+
+                        <br>
+                        <input type="submit" value="Tilmeld" class="button">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <footer>
         <div class="wrapper">
