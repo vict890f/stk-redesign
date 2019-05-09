@@ -224,8 +224,17 @@ nav {
     left: 0;
     margin: 0;
     width: 100%;
-    border-bottom: 0.1px solid #000000;
+    border-bottom: 0.1px solid #e4e4e4;
 
+}
+
+.break {
+    height: 10vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 
 header nav a {
@@ -321,10 +330,10 @@ header .hidden {
         display: inline-block;
     }
 
-    nav {
+    /*nav {
         border-bottom: none;
 
-    }
+    }/*
 
 }
 
@@ -335,439 +344,439 @@ header .hidden {
 
 
 
-/****************************  SPLASH  ****************************/
-
-#splash {
-
-    width: 100%;
-    height: 20vw;
-    background-color: black;
-    background-size: cover;
-    background-position: 80% 0%;
-    max-width: none;
-    padding: 0;
-    margin-top: 60px;
-    margin: 0;
-    position: relative;
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    resize: both;
-    overflow: auto;
-
-}
-
-#splash h1 {
-    color: white;
-    margin: 10px;
-    padding: 10px;
-}
-
-#splash h3 {
-    color: white;
-    font-family: 'Noto Sans KR:400', sans-serif;
-    margin: 10px;
-    padding: 10px;
-}
-
-#splash a {
-    background-color: #CD2E3A;
-    color: white;
-    margin: 8px 0;
-    padding: 14px 20px;
-    border: 2px solid #CD2E3A;
-    border-radius: 4px;
-    position: relative;
-    text-decoration: none;
-    font-weight: bold;
-    justify-content: center;
-}
-
-#splash a:hover {
-    background-color: #0047A0;
-    border: 2px solid #0047A0;
-    color: #ffffff;
-}
-
-/****************************  SPLASH SLUT  ****************************/
-
-/****************************  BLIV MEDLEM  ****************************/
-
-#forside_taekwondo {
-    padding: 15px;
-    margin-left: 10vw;
-}
-
-#forside_taekwondo .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#forside_taekwondo .col {
-    flex-basis: 500px;
-    flex-grow: 1;
-    padding: 15px;
-    margin: 15px;
-}
-
-
-#forside_taekwondo figure {
-    margin-left: 10vw;
-    max-width: 50%;
-}
-
-#forside_taekwondo a {
-    background-color: #ffffff;
-    color: #0047A0;
-    margin: 8px 0;
-    padding: 14px 20px;
-    border: 2px solid;
-    border-radius: 4px;
-    position: relative;
-    text-decoration: none;
-    font-weight: bold;
-    justify-content: center;
-}
-
-#forside_taekwondo a:hover {
-    background-color: #0047A0;
-    border: 2px solid #0047A0;
-    color: #ffffff;
-}
-
-#forside_taekwondo h2,
-#forside_taekwondo p {
-    color: black;
-
-}
+    /****************************  SPLASH  ****************************/
+
+    #splash {
+
+        width: 100%;
+        height: 20vw;
+        background-color: black;
+        background-size: cover;
+        background-position: 80% 0%;
+        max-width: none;
+        padding: 0;
+        margin-top: 60px;
+        margin: 0;
+        position: relative;
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        resize: both;
+        overflow: auto;
+
+    }
+
+    #splash h1 {
+        color: white;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #splash h3 {
+        color: white;
+        font-family: 'Noto Sans KR:400', sans-serif;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #splash a {
+        background-color: #CD2E3A;
+        color: white;
+        margin: 8px 0;
+        padding: 14px 20px;
+        border: 2px solid #CD2E3A;
+        border-radius: 4px;
+        position: relative;
+        text-decoration: none;
+        font-weight: bold;
+        justify-content: center;
+    }
+
+    #splash a:hover {
+        background-color: #0047A0;
+        border: 2px solid #0047A0;
+        color: #ffffff;
+    }
+
+    /****************************  SPLASH SLUT  ****************************/
+
+    /****************************  BLIV MEDLEM  ****************************/
+
+    #forside_taekwondo {
+        padding: 15px;
+        margin-left: 10vw;
+    }
+
+    #forside_taekwondo .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #forside_taekwondo .col {
+        flex-basis: 500px;
+        flex-grow: 1;
+        padding: 15px;
+        margin: 15px;
+    }
+
+
+    #forside_taekwondo figure {
+        margin-left: 10vw;
+        max-width: 50%;
+    }
+
+    #forside_taekwondo a {
+        background-color: #ffffff;
+        color: #0047A0;
+        margin: 8px 0;
+        padding: 14px 20px;
+        border: 2px solid;
+        border-radius: 4px;
+        position: relative;
+        text-decoration: none;
+        font-weight: bold;
+        justify-content: center;
+    }
+
+    #forside_taekwondo a:hover {
+        background-color: #0047A0;
+        border: 2px solid #0047A0;
+        color: #ffffff;
+    }
+
+    #forside_taekwondo h2,
+    #forside_taekwondo p {
+        color: black;
+
+    }
 
-#forside_taekwondo p {
-    padding-bottom: 2vw;
+    #forside_taekwondo p {
+        padding-bottom: 2vw;
 
-}
+    }
 
-/****************************  BLIV MEDLEM SLUT ****************************/
+    /****************************  BLIV MEDLEM SLUT ****************************/
 
 
-/****************************  VIDEO ****************************/
+    /****************************  VIDEO ****************************/
 
-#film {
-    background-color: #ffffff;
-    padding: 15px;
-    margin: 0px;
-}
+    #film {
+        background-color: #ffffff;
+        padding: 15px;
+        margin: 0px;
+    }
 
-#film .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    #film .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
 
-}
+    }
 
-#film .col {
-    flex-grow: 1;
-    flex-basis: 400px;
-    margin: 15px;
-    padding: 15px;
-}
+    #film .col {
+        flex-grow: 1;
+        flex-basis: 400px;
+        margin: 15px;
+        padding: 15px;
+    }
 
-#film .video {
-    height: 100%;
-    position: absolute;
-}
+    #film .video {
+        height: 100%;
+        position: absolute;
+    }
 
-video[poster] {
-    height: 100%;
-    width: 100%;
-}
+    video[poster] {
+        height: 100%;
+        width: 100%;
+    }
 
 
-/****************************  VIDEO SLUT  ****************************/
+    /****************************  VIDEO SLUT  ****************************/
 
-/****************************  FORSIDE_HOLD  ****************************/
+    /****************************  FORSIDE_HOLD  ****************************/
 
-#forside_hold {
-    background-color: #CD2E3A;
+    #forside_hold {
+        background-color: #CD2E3A;
 
-}
-
-
-#forside_hold .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100vw;
-}
+    }
+
+
+    #forside_hold .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100vw;
+    }
 
-#forside_hold h2 {
-    padding-top: 2vw;
-    color: white;
-    text-align: center;
-}
-
-#forside_hold .col1 {
-    /* child flex */
-    flex-grow: 1;
-    flex-basis: 200px;
-    /* parent flex */
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    background-color: white;
-    background-image: url(assets/billede2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 30vw;
-    margin-top: 2vw;
-    margin-bottom: 4vw;
-    margin-left: 2vw;
-    margin-right: 2vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    padding-bottom: 3vw;
-}
+    #forside_hold h2 {
+        padding-top: 2vw;
+        color: white;
+        text-align: center;
+    }
+
+    #forside_hold .col1 {
+        /* child flex */
+        flex-grow: 1;
+        flex-basis: 200px;
+        /* parent flex */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        background-color: white;
+        background-image: url(assets/billede2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 30vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        padding-bottom: 3vw;
+    }
 
-.col1:hover {
-    transform: scale(1.01);
-    transition: transform .2s;
-    cursor: pointer;
-}
+    .col1:hover {
+        transform: scale(1.01);
+        transition: transform .2s;
+        cursor: pointer;
+    }
 
-#forside_hold h3 {
-    color: #ffffff;
-}
+    #forside_hold h3 {
+        color: #ffffff;
+    }
 
-/****************************  FORSIDE_HOLD SLUT ****************************/
+    /****************************  FORSIDE_HOLD SLUT ****************************/
 
 
-/****************************  NYHEDSBREV  ****************************/
+    /****************************  NYHEDSBREV  ****************************/
 
-#nyhedsbrev {
-    background-color: #0047A0;
-    padding: 15px;
-    margin: 0px;
+    #nyhedsbrev {
+        background-color: #0047A0;
+        padding: 15px;
+        margin: 0px;
 
-}
+    }
 
-#nyhedsbrev .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    #nyhedsbrev .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
 
 
-}
+    }
 
-#nyhedsbrev .col {
-    flex-grow: 1;
-    flex-basis: 400px;
-    padding: 15px;
-    margin: 15px;
-    max-width: 500px;
-}
+    #nyhedsbrev .col {
+        flex-grow: 1;
+        flex-basis: 400px;
+        padding: 15px;
+        margin: 15px;
+        max-width: 500px;
+    }
 
 
-input[type=email] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 2px solid #0047A0;
-    border-radius: 4px;
-    background-color: #E4E4E4;
-}
-
-input[type=email]:focus {
-    background-color: white;
-
-
-}
+    input[type=email] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid #0047A0;
+        border-radius: 4px;
+        background-color: #E4E4E4;
+    }
+
+    input[type=email]:focus {
+        background-color: white;
+
+
+    }
 
-input[type=submit] {
-    width: 100%;
-    background-color: #ffffff;
-    color: #0047A0;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: 2px solid #ffffff;
-    border-radius: 4px;
-    cursor: pointer;
-}
+    input[type=submit] {
+        width: 100%;
+        background-color: #ffffff;
+        color: #0047A0;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: 2px solid #ffffff;
+        border-radius: 4px;
+        cursor: pointer;
+    }
 
-#nyhedsbrev input[type=submit]:hover {
-    background-color: #ffffff;
-    color: #0047A0;
-}
+    #nyhedsbrev input[type=submit]:hover {
+        background-color: #ffffff;
+        color: #0047A0;
+    }
 
-#nyhedsbrev .txt,
-#nyhedsbrev .email {
-    color: #0047A0;
-}
+    #nyhedsbrev .txt,
+    #nyhedsbrev .email {
+        color: #0047A0;
+    }
 
-#nyhedsbrev .button {
-    color: #ffffff;
-    background-color: #0047A0;
-    font-weight: bold;
-}
+    #nyhedsbrev .button {
+        color: #ffffff;
+        background-color: #0047A0;
+        font-weight: bold;
+    }
 
-#nyhedsbrev .form {
-    color: #0047A0;
-}
+    #nyhedsbrev .form {
+        color: #0047A0;
+    }
 
 
 
-#nyhedsbrev h1,
-#nyhedsbrev h3,
-#nyhedsbrev p {
-    color: white;
-}
-
-#nyhedsbrev h2 {
-    font-family: 'Black Han Sans', sans-serif;
-    color: white;
-}
-
-
-/****************************  NYHEDSBREV SLUT  ****************************/
-
-
-
-/****************************  FORSIDE: BLIV MEDLEM  ****************************/
-
-#nyt {
-    background-color: #ffffff;
-    padding: 15px;
-    margin: 0px;
-    margin-left: 10vw;
-}
-
-#nyt .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-#nyt .col {
-    flex-basis: 500px;
-    flex-grow: 1;
-    padding: 15px;
-    margin: 15px;
-}
-
-#nyt figure {
-    margin-left: 10vw;
-    max-width: 50%;
-}
-
-
-#nyt a {
-    background-color: #ffffff;
-    color: #0047A0;
-    margin: 8px 0;
-    padding: 14px 20px;
-    border: 2px solid;
-    border-radius: 4px;
-    position: relative;
-    text-decoration: none;
-    font-weight: bold;
-    justify-content: center;
-}
+    #nyhedsbrev h1,
+    #nyhedsbrev h3,
+    #nyhedsbrev p {
+        color: white;
+    }
+
+    #nyhedsbrev h2 {
+        font-family: 'Black Han Sans', sans-serif;
+        color: white;
+    }
+
+
+    /****************************  NYHEDSBREV SLUT  ****************************/
+
+
+
+    /****************************  FORSIDE: BLIV MEDLEM  ****************************/
+
+    #nyt {
+        background-color: #ffffff;
+        padding: 15px;
+        margin: 0px;
+        margin-left: 10vw;
+    }
+
+    #nyt .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    #nyt .col {
+        flex-basis: 500px;
+        flex-grow: 1;
+        padding: 15px;
+        margin: 15px;
+    }
+
+    #nyt figure {
+        margin-left: 10vw;
+        max-width: 50%;
+    }
+
+
+    #nyt a {
+        background-color: #ffffff;
+        color: #0047A0;
+        margin: 8px 0;
+        padding: 14px 20px;
+        border: 2px solid;
+        border-radius: 4px;
+        position: relative;
+        text-decoration: none;
+        font-weight: bold;
+        justify-content: center;
+    }
 
-#nyt a:hover {
-    background-color: #0047A0;
-    border: 2px solid #0047A0;
-    color: #ffffff;
-}
+    #nyt a:hover {
+        background-color: #0047A0;
+        border: 2px solid #0047A0;
+        color: #ffffff;
+    }
 
-/****************************  FORSIDE: BLIV MEDLEM SLUT ****************************/
+    /****************************  FORSIDE: BLIV MEDLEM SLUT ****************************/
 
 
 
-/****************************  PROEV   ****************************/
+    /****************************  PROEV   ****************************/
 
 
-#splash_proev {
-    width: 100%;
-    height: 60vw;
-    background-image: url(assets/billede1.jpg);
-    background-size: cover;
-    background-position: 80% 0%;
-    max-width: none;
-    padding: 15vw;
-    ;
-    margin-top: 20px;
-    position: relative;
+    #splash_proev {
+        width: 100%;
+        height: 60vw;
+        background-image: url(assets/billede1.jpg);
+        background-size: cover;
+        background-position: 80% 0%;
+        max-width: none;
+        padding: 15vw;
+        ;
+        margin-top: 20px;
+        position: relative;
 
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    resize: both;
-    overflow: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        resize: both;
+        overflow: auto;
 
-}
+    }
 
-#splash_proev h2 {
-    font-family: 'Black Han Sans', sans-serif;
-    font-weight: 700;
-    font-size: 2.5rem;
-    color: white;
-    margin: 10px;
-    padding: 10px;
-}
+    #splash_proev h2 {
+        font-family: 'Black Han Sans', sans-serif;
+        font-weight: 700;
+        font-size: 2.5rem;
+        color: white;
+        margin: 10px;
+        padding: 10px;
+    }
 
-#splash_proev h3 {
-    color: white;
-    font-family: 'Noto Sans KR:400', sans-serif;
-    margin: 10px;
-    padding: 10px;
-}
+    #splash_proev h3 {
+        color: white;
+        font-family: 'Noto Sans KR:400', sans-serif;
+        margin: 10px;
+        padding: 10px;
+    }
 
-#splash_proev a {
-    background-color: #CD2E3A;
-    color: white;
-    margin: 8px 0;
-    padding: 14px 20px;
-    border: 2px solid #CD2E3A;
-    border-radius: 4px;
-    position: relative;
-    text-decoration: none;
-    font-weight: bold;
-    justify-content: center;
-}
+    #splash_proev a {
+        background-color: #CD2E3A;
+        color: white;
+        margin: 8px 0;
+        padding: 14px 20px;
+        border: 2px solid #CD2E3A;
+        border-radius: 4px;
+        position: relative;
+        text-decoration: none;
+        font-weight: bold;
+        justify-content: center;
+    }
 
-#splash_proev a:hover {
-    background-color: #0047A0;
-    border: 2px solid #0047A0;
-    color: #ffffff;
-}
+    #splash_proev a:hover {
+        background-color: #0047A0;
+        border: 2px solid #0047A0;
+        color: #ffffff;
+    }
 
-/****************************  FORSIDE: PROEV SLUT ****************************/
+    /****************************  FORSIDE: PROEV SLUT ****************************/
 
-/****************************  FORSIDE: FACEBOOK LOGO   ****************************/
+    /****************************  FORSIDE: FACEBOOK LOGO   ****************************/
 
-#facebook {
-    margin: 0px;
+    #facebook {
+        margin: 0px;
 
-}
+    }
 
 
-#facebook .col {
-    width: 4vw;
-    height: 4vw;
+    #facebook .col {
+        width: 4vw;
+        height: 4vw;
 
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
 
-}
+    }
 
-/***********************  FORSIDE: FACEBOOK LOGO SLUT ***********************/
+    /***********************  FORSIDE: FACEBOOK LOGO SLUT ***********************/
 
 
 
-/*********************************************************************************************************************
+    /*********************************************************************************************************************
 ***********************************************************
 FORSIDE SLUT ********************************************** **********************************************************************************************************************
 **********************************************************/
@@ -775,859 +784,867 @@ FORSIDE SLUT ********************************************** ********************
 
 
 
-/****************************  HOLD ****************************/
+    /****************************  HOLD ****************************/
 
-#hold {
-    background-color: #000000;
-    padding: 15px;
-    margin: 0px;
+    #hold {
+        background-color: #000000;
+        padding: 15px;
+        margin: 0px;
 
-}
-
-#hold .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-#hold_info .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#hold_info .col {
-    flex-basis: 300px;
-    flex-grow: 1;
-}
-
-
-#hold_splash {
-    width: 100vw;
-    height: 100vh;
-    max-width: none;
-    background-image: url(assets/billede1.jpg);
-    background-size: cover;
-    background-position: 50% 0%, 5% 0%;
-}
-
-#hold_splash .col {
-    padding-top: 20vw;
-    padding-left: 10vw;
-}
-
-#hold_splash h1 {
-    font-weight: 700;
-    font-size: 5rem;
-    color: white;
-    padding: 0;
-    margin: 0;
-}
-
-#hold_splash p {
-    color: white;
-}
-
-#hold_splash2 {
-    width: 100vw;
-    height: 100vh;
-    max-width: none;
-    background-image: url(assets/billede1.jpg);
-    background-size: cover;
-    background-position: 50% 0%, 5% 0%;
-}
-
-
-#hold_splash2 .col {
-    padding-top: 20vw;
-    padding-left: 10vw;
-}
-
-#hold_splash2 h2 {
-    font-weight: 700;
-    font-size: 5rem;
-    color: #CD2E3A;
-    padding: 0;
-    margin: 0;
-}
-
-#hold_splash2 p {
-    color: white;
-}
-
-#hold_splash3 {
-    width: 100vw;
-    height: 100vh;
-    max-width: none;
-    background-image: url(assets/billede1.jpg);
-    background-size: cover;
-    background-position: 50% 0%, 5% 0%;
-}
-
-
-#hold_splash3 .col {
-    padding-top: 20vw;
-    padding-left: 10vw;
-}
-
-#hold_splash3 h2 {
-    font-weight: 700;
-    font-size: 5rem;
-    color: #CD2E3A;
-    padding: 0;
-    margin: 0;
-}
-
-#hold_splash3 p {
-    color: white;
-}
-
-#knap {
-    margin-top: 1vw;
-    width: 10vw;
-    height: 2vw;
-    background-color: blue;
-}
-
-#hold_afsnit1 .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#hold_afsnit1 {
-    padding-top: 2.5vw;
-
-}
-
-#hold_afsnit1 .col_left {
-    flex-basis: 300px;
-    flex-grow: 1;
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
-    border-right: 2px solid black;
-}
-
-#hold_afsnit1 .col_right {
-    flex-basis: 300px;
-    flex-grow: 1;
-    border-color: firebrick;
-}
-
-#hold_afsnit1 figure {
-    margin-left: 10vw;
-    width: 30vw;
-}
-
-#hold_afsnit1 p {
-    margin-bottom: 2.5vw;
-}
-
-#hold_afsnit1 a {
-    background-color: #CD2E3A;
-    color: white;
-    margin-top: 20vw;
-    padding: 14px 20px;
-    border: 2px solid #CD2E3A;
-    border-radius: 4px;
-    position: relative;
-    text-decoration: none;
-    font-weight: bold;
-    justify-content: center;
-}
-
-#hold_afsnit1 a:hover {
-    background-color: #0047A0;
-    border: 2px solid #0047A0;
-    color: #ffffff;
-}
-
-
-#hold_afsnit2 .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-}
-
-#hold_afsnit2 {
-    padding-top: 2.5vw;
-
-}
-
-#hold_afsnit2 .col_left {
-    flex-basis: 300px;
-    flex-grow: 1;
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
-    border-right: 2px solid black;
-}
-
-#hold_afsnit2 .col_right {
-    flex-basis: 300px;
-    flex-grow: 1;
-    border-color: firebrick;
-}
-
-#hold_afsnit2 figure {
-    margin-left: 10vw;
-    width: 30vw;
-
-}
-
-#hold_afsnit2 p {
-    margin-bottom: 2.5vw;
-}
-
-#hold_afsnit2 a {
-    background-color: #CD2E3A;
-    color: white;
-    margin-top: 20vw;
-    padding: 14px 20px;
-    border: 2px solid #CD2E3A;
-    border-radius: 4px;
-    position: relative;
-    text-decoration: none;
-    font-weight: bold;
-    justify-content: center;
-}
-
-#hold_afsnit2 a:hover {
-    background-color: #0047A0;
-    border: 2px solid #0047A0;
-    color: #ffffff;
-}
-
-#hold_afsnit3 .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#hold_afsnit3 {
-    padding-top: 2.5vw;
-
-}
-
-#hold_afsnit3 .col_left {
-    flex-basis: 300px;
-    flex-grow: 1;
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
-    border-right: 2px solid black;
-}
-
-#hold_afsnit3 .col_right {
-    flex-basis: 300px;
-    flex-grow: 1;
-    border-color: firebrick;
-}
-
-#hold_afsnit3 figure {
-    margin-left: 10vw;
-    width: 30vw;
-
-}
-
-#hold_afsnit3 p {
-    margin-bottom: 2.5vw;
-}
-
-#hold_afsnit3 a {
-    background-color: #CD2E3A;
-    color: white;
-    margin-top: 20vw;
-    padding: 14px 20px;
-    border: 2px solid #CD2E3A;
-    border-radius: 4px;
-    position: relative;
-    text-decoration: none;
-    font-weight: bold;
-    justify-content: center;
-}
-
-#hold_afsnit3 a:hover {
-    background-color: #0047A0;
-    border: 2px solid #0047A0;
-    color: #ffffff;
-}
-
-#hold_afsnit4 .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-
-}
-
-#hold_afsnit4 {
-    padding-top: 2.5vw;
-
-}
-
-#hold_afsnit4 .col_left {
-    flex-basis: 300px;
-    flex-grow: 1;
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
-    border-right: 2px solid black;
-}
-
-#hold_afsnit4 .col_right {
-    flex-basis: 300px;
-    flex-grow: 1;
-    border-color: firebrick;
-}
-
-#hold_afsnit4 figure {
-    margin-left: 10vw;
-    width: 30vw;
-
-}
-
-#hold_afsnit4 p {
-    margin-bottom: 2.5vw;
-}
-
-#hold_afsnit4 a {
-    background-color: #CD2E3A;
-    color: white;
-    margin-top: 20vw;
-    padding: 14px 20px;
-    border: 2px solid #CD2E3A;
-    border-radius: 4px;
-    position: relative;
-    text-decoration: none;
-    font-weight: bold;
-    justify-content: center;
-}
-
-#hold_afsnit4 a:hover {
-    background-color: #0047A0;
-    border: 2px solid #0047A0;
-    color: #ffffff;
-}
-
-
-.break {
-    height: 10vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
-}
-
-#korea_break1 {
-    background-image: url(assets/flag1.png);
-
-}
-
-#korea_break2 {
-    background-image: url(assets/flag2.png);
-}
-
-#korea_break3 {
-    background-image: url(assets/flag3.png);
-}
-
-#korea_break4 {
-    background-image: url(assets/flag4.png);
-}
-
-
-/****************************  HOLD SLUT  ****************************/
-
-
-
-
-/****************************  HOLD  ****************************/
-
-/****************************  HOLD SLUT  ****************************/
-
-
-
-/****************************  KLUBBEN  ****************************/
-
-#klub_splash {
-    background-image: url(filer/fotos/klub1.jpg);
-    width: 100vw;
-    height: 66.6vw;
-    background-size: cover;
-    max-width: none;
-    margin: 0px;
-}
-
-#historie_splash {
-    background-image: url(filer/fotos/klub3.jpg);
-    width: 100vw;
-    height: 66.6vw;
-    background-size: cover;
-    max-width: none;
-    margin: 0px;
-}
-
-#instruktoerer_splash {
-    background-image: url(filer/fotos/klub2.jpg);
-    width: 100vw;
-    height: 66.6vw;
-    background-size: cover;
-    max-width: none;
-    margin: 0px;
-}
-
-#klub_break1 {
-    background-image: url(assets/korea_break1.png);
-}
-
-#klub_break2 {
-    background-image: url(assets/korea_break2.png);
-}
-
-#klub_break3 {
-    background-image: url(assets/korea_break3.png);
-}
-
-#klub_break4 {
-    background-image: url(assets/korea_break4.png);
-}
-
-#instruktoerer .col {
-    padding: 2vw;
-}
-
-#instruktoerer h2 {
-    color: #cd2e3a;
-    padding-top: 30px;
-}
-
-#klubben .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#klubben .colright {
-    flex-basis: 300px;
-    flex-grow: 1;
-    padding: 2vw;
-}
-
-#klubben .colleft {
-    flex-basis: 300px;
-    flex-grow: 1;
-    padding: 2vw;
-}
-
-#klub_splash h1 {
-    padding-top: 30px;
-    color: #cd2e3a;
-}
-
-#klubben h2 {
-    color: #0047a0;
-    margin-top: 0;
-}
-
-#klubben p {
-    margin-bottom: 15px;
-}
-
-#historie .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#historie .colright {
-    flex-basis: 300px;
-    flex-grow: 1;
-    padding: 2vw;
-}
-
-#historie .colleft {
-    flex-basis: 300px;
-    flex-grow: 1;
-    padding: 2vw;
-}
-
-#historie ul {
-    list-style-position: outside;
-    list-style-type: circle;
-}
-
-#historie h2 {
-    color: #cd2e3a;
-    padding-top: 30px;
-}
-
-historie p {
-    margin-bottom: 15px;
-}
-
-#bestyrelsen {
-    background-color: #e4e4e4;
-    margin: 0;
-}
-
-#bestyrelsen .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-#bestyrelsen .bestyrelsesbox {
-    margin: 15px;
-    padding: 2vw;
-    background-color: white;
-    flex-basis: 300px;
-    flex-grow: 1;
-}
-
-.bestyrelsesbox h3 {
-    color: #0047a9;
-}
-
-#bestyrelsen h2 {
-    color: #cd2e3a;
-    padding-top: 30px;
-    margin-left: 10px;
-}
-
-/****************************  KLUBBEN SLUT  ****************************/
-
-
-
-/****************************  TAEKWONDO  ****************************/
-
-#tkd_splash {
-    background-image: url(filer/fotos/belter.jpg);
-    width: 100vw;
-    height: 66.6vw;
-    background-size: cover;
-    max-width: none;
-    margin: 0px;
-}
-
-#born_splash {
-    background-image: url(filer/fotos/born.jpg);
-    width: 100vw;
-    height: 66.6vw;
-    background-size: cover;
-    max-width: none;
-    margin: 0px;
-}
-
-#born2_splash {
-    background-image: url(filer/fotos/born2.jpg);
-    width: 100vw;
-    height: 66.6vw;
-    background-size: cover;
-    max-width: none;
-    margin: 0px;
-    margin-top: 3vw;
-}
-
-#dobok_splash {
-    background-image: url(filer/fotos/dobok.jpg);
-    width: 100vw;
-    height: 66.6vw;
-    background-size: cover;
-    max-width: none;
-    margin: 0px;
-}
-
-#belter_splash {
-    background-image: url(filer/fotos/belter.jpg);
-    width: 100vw;
-    height: 66.6vw;
-    background-size: cover;
-    max-width: none;
-    margin: 0px;
-}
-
-#tkd .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.tkd_info {
-    flex-grow: 1;
-    flex-basis: 1000px;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
-}
-
-.tkd_txt h1 {
-    font-family: 'Black Han Sans', sans-serif;
-    font-weight: 700;
-    font-size: 2.5rem;
-    color: #CD2E3A;
-    padding: 0px;
-    margin-left: 7vw;
-    margin-top: 7vw;
-}
-
-.tkd_txt h2 {
-    font-family: 'Noto Sans:700', sans-serif;
-    font-weight: 700;
-    font-size: 1.5rem;
-    color: #0047A0;
-    padding: 0px;
-    margin-left: 7vw;
-    margin-top: 3vw;
-}
-
-.tkd_txt p {
-    font-family: 'Noto Sans:400', sans-serif;
-    font-weight: 400;
-    color: #000000;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    margin: 5px;
-    padding: 0px;
-    margin-left: 7vw;
-    margin-right: 7vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-}
-
-.tkd_txt ul {
-    margin-left: 7vw;
-    margin-right: 7vw;
-}
-
-/****************************  TAEKWONDO SLUT  ****************************/
-
-
-
-/****************************  MEDLEM  ****************************/
-
-#tilmeld_nu {
-    background-color: white;
-    padding: 15px;
-    margin: 0px;
-
-}
-
-#tilmeld_nu .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 45px;
-
-
-}
-
-#tilmeld_nu .col {
-    flex-grow: 1;
-    flex-basis: 400px;
-    padding: 30px;
-    margin: 30px;
-    max-width: 600px;
-    border-radius: 5px;
-    background-color: #0047A0;
-}
-
-
-#tilmeld_nu .signup {}
-
-
-#tilmeld_nu input[type=text],
-#tilmeld_nu input[type=number],
-#tilmeld_nu input[type=date],
-#tilmeld_nu input[type=tel],
-#tilmeld_nu input[type=email] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 2px solid #0047A0;
-    border-radius: 4px;
-    background-color: #E4E4E4;
-
-}
-
-#tilmeld_nu input[type=email]:focus {
-    background-color: white;
-
-
-}
-
-#tilmeld_nu input[type=submit] {
-    width: 100%;
-    background-color: #0047A0;
-    color: #ffffff;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: 2px solid #ffffff;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-#tilmeld_nu input[type=submit]:hover {
-    background-color: #ffffff;
-    color: #0047A0;
-}
-
-
-#tilmeld_nu .txt,
-#tilmeld_nu .firstname,
-#tilmeld_nu .lastname,
-#tilmeld_nu .adresse,
-#tilmeld_nu .post,
-#tilmeld_nu .by,
-#tilmeld_nu .bday,
-#tilmeld_nu .nummer,
-#tilmeld_nu .email {
-    color: #0047A0;
-}
-
-#tilmeld_nu .button {
-    color: #ffffff;
-    background-color: #0047A0;
-    font-weight: bold;
-}
-
-#tilmeld_nu .form {
-    color: #0047A0;
-}
-
-
-
-#tilmeld_nu h1,
-#tilmeld_nu h3,
-#tilmeld_nu p {
-    color: white;
-}
-
-#tilmeld_nu h2 {
-    font-family: 'Black Han Sans', sans-serif;
-    color: white;
-}
-
-/****************************  MEDLEM SLUT  ****************************/
-
-
-
-/****************************  MEDIER  ****************************/
-
-
-.masonry {
-    /* Masonry container */
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;
-    -webkit-column-gap: 1em;
-    -moz-column-gap: 1em;
-    column-gap: 1em;
-    margin: 1.5em;
-    padding: 0;
-    -moz-column-gap: 1.5em;
-    -webkit-column-gap: 1.5em;
-    column-gap: 1.5em;
-    font-size: .85em;
-}
-
-.item {
-    display: inline-block;
-    background: #fff;
-    padding: 1em;
-    margin: 0 0 1.5em;
-    width: 100%;
-    -webkit-transition: 1s ease all;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-shadow: 2px 2px 4px 0 #ccc;
-}
-
-.item img {
-    max-width: 100%;
-}
-
-@media only screen and (max-width: 320px) {
-    .masonry {
-        -moz-column-count: 1;
-        -webkit-column-count: 1;
-        column-count: 1;
-    }
-}
-
-@media only screen and (min-width: 321px) and (max-width: 768px) {
-    .masonry {
-        -moz-column-count: 2;
-        -webkit-column-count: 2;
-        column-count: 2;
-    }
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1200px) {
-    .masonry {
-        -moz-column-count: 3;
-        -webkit-column-count: 3;
-        column-count: 3;
-    }
-}
-
-@media only screen and (min-width: 1201px) {
-    .masonry {
-        -moz-column-count: 4;
-        -webkit-column-count: 4;
-        column-count: 4;
-    }
-}
-
-
-
-
-/****************************  MEDIER SLUT  ****************************/
-
-
-
-/****************************  MEDIA QUERIES  ****************************/
-
-@media only screen and (min-width: 200px) {
-    #splash {
-
-        background-position: 80% 0%;
-        position: relative;
-        margin-top: 60px;
     }
 
-}
+    #hold .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
 
-@media only screen and (min-width: 500px) {
-    #splash {
+    }
+
+    #hold_info .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #hold_info .col {
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+
+
+    #hold_splash {
         width: 100vw;
-        height: 46.25vw;
-        background-position: 80% 0%;
-        margin-top: 60px;
+        height: 100vh;
+        max-width: none;
+        background-image: url(assets/billede1.jpg);
+        background-size: cover;
+        background-position: 50% 0%, 5% 0%;
+    }
+
+    #hold_splash .col {
+        padding-top: 20vw;
+        padding-left: 10vw;
+    }
+
+    #hold_splash h1 {
+        font-weight: 700;
+        font-size: 5rem;
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+
+    #hold_splash p {
+        color: white;
+    }
+
+    #hold_splash2 {
+        width: 100vw;
+        height: 100vh;
+        max-width: none;
+        background-image: url(assets/billede1.jpg);
+        background-size: cover;
+        background-position: 50% 0%, 5% 0%;
+    }
+
+
+    #hold_splash2 .col {
+        padding-top: 20vw;
+        padding-left: 10vw;
+    }
+
+    #hold_splash2 h2 {
+        font-weight: 700;
+        font-size: 5rem;
+        color: #CD2E3A;
+        padding: 0;
+        margin: 0;
+    }
+
+    #hold_splash2 p {
+        color: white;
+    }
+
+    #hold_splash3 {
+        width: 100vw;
+        height: 100vh;
+        max-width: none;
+        background-image: url(assets/billede1.jpg);
+        background-size: cover;
+        background-position: 50% 0%, 5% 0%;
+    }
+
+
+    #hold_splash3 .col {
+        padding-top: 20vw;
+        padding-left: 10vw;
+    }
+
+    #hold_splash3 h2 {
+        font-weight: 700;
+        font-size: 5rem;
+        color: #CD2E3A;
+        padding: 0;
+        margin: 0;
+    }
+
+    #hold_splash3 p {
+        color: white;
+    }
+
+    #knap {
+        margin-top: 1vw;
+        width: 10vw;
+        height: 2vw;
+        background-color: blue;
+    }
+
+    #hold_afsnit1 .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #hold_afsnit1 {
+        padding-top: 2.5vw;
+
+    }
+
+    #hold_afsnit1 .col_left {
+        flex-basis: 300px;
+        flex-grow: 1;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        border-right: 2px solid black;
+    }
+
+    #hold_afsnit1 .col_right {
+        flex-basis: 300px;
+        flex-grow: 1;
+        border-color: firebrick;
+    }
+
+    #hold_afsnit1 figure {
+        margin-left: 10vw;
+        width: 30vw;
+    }
+
+    #hold_afsnit1 p {
+        margin-bottom: 2.5vw;
+    }
+
+    #hold_afsnit1 a {
+        background-color: #CD2E3A;
+        color: white;
+        margin-top: 20vw;
+        padding: 14px 20px;
+        border: 2px solid #CD2E3A;
+        border-radius: 4px;
         position: relative;
+        text-decoration: none;
+        font-weight: bold;
+        justify-content: center;
     }
 
-}
-
-@media only screen and (min-width: 800px) {
-
-    #splash {
-        margin-top: 60px;
-        background-position: 80% 0%;
+    #hold_afsnit1 a:hover {
+        background-color: #0047A0;
+        border: 2px solid #0047A0;
+        color: #ffffff;
     }
 
-    .nav {
-        /*flex-direction: row;
+
+    #hold_afsnit2 .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+
+    #hold_afsnit2 {
+        padding-top: 2.5vw;
+
+    }
+
+    #hold_afsnit2 .col_left {
+        flex-basis: 300px;
+        flex-grow: 1;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        border-right: 2px solid black;
+    }
+
+    #hold_afsnit2 .col_right {
+        flex-basis: 300px;
+        flex-grow: 1;
+        border-color: firebrick;
+    }
+
+    #hold_afsnit2 figure {
+        margin-left: 10vw;
+        width: 30vw;
+
+    }
+
+    #hold_afsnit2 p {
+        margin-bottom: 2.5vw;
+    }
+
+    #hold_afsnit2 a {
+        background-color: #CD2E3A;
+        color: white;
+        margin-top: 20vw;
+        padding: 14px 20px;
+        border: 2px solid #CD2E3A;
+        border-radius: 4px;
+        position: relative;
+        text-decoration: none;
+        font-weight: bold;
+        justify-content: center;
+    }
+
+    #hold_afsnit2 a:hover {
+        background-color: #0047A0;
+        border: 2px solid #0047A0;
+        color: #ffffff;
+    }
+
+    #hold_afsnit3 .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #hold_afsnit3 {
+        padding-top: 2.5vw;
+
+    }
+
+    #hold_afsnit3 .col_left {
+        flex-basis: 300px;
+        flex-grow: 1;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        border-right: 2px solid black;
+    }
+
+    #hold_afsnit3 .col_right {
+        flex-basis: 300px;
+        flex-grow: 1;
+        border-color: firebrick;
+    }
+
+    #hold_afsnit3 figure {
+        margin-left: 10vw;
+        width: 30vw;
+
+    }
+
+    #hold_afsnit3 p {
+        margin-bottom: 2.5vw;
+    }
+
+    #hold_afsnit3 a {
+        background-color: #CD2E3A;
+        color: white;
+        margin-top: 20vw;
+        padding: 14px 20px;
+        border: 2px solid #CD2E3A;
+        border-radius: 4px;
+        position: relative;
+        text-decoration: none;
+        font-weight: bold;
+        justify-content: center;
+    }
+
+    #hold_afsnit3 a:hover {
+        background-color: #0047A0;
+        border: 2px solid #0047A0;
+        color: #ffffff;
+    }
+
+    #hold_afsnit4 .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+
+    }
+
+    #hold_afsnit4 {
+        padding-top: 2.5vw;
+
+    }
+
+    #hold_afsnit4 .col_left {
+        flex-basis: 300px;
+        flex-grow: 1;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        border-right: 2px solid black;
+    }
+
+    #hold_afsnit4 .col_right {
+        flex-basis: 300px;
+        flex-grow: 1;
+        border-color: firebrick;
+    }
+
+    #hold_afsnit4 figure {
+        margin-left: 10vw;
+        width: 30vw;
+
+    }
+
+    #hold_afsnit4 p {
+        margin-bottom: 2.5vw;
+    }
+
+    #hold_afsnit4 a {
+        background-color: #CD2E3A;
+        color: white;
+        margin-top: 20vw;
+        padding: 14px 20px;
+        border: 2px solid #CD2E3A;
+        border-radius: 4px;
+        position: relative;
+        text-decoration: none;
+        font-weight: bold;
+        justify-content: center;
+    }
+
+    #hold_afsnit4 a:hover {
+        background-color: #0047A0;
+        border: 2px solid #0047A0;
+        color: #ffffff;
+    }
+
+
+    .break {
+        height: 10vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    #korea_break1 {
+        background-image: url(assets/flag1.png);
+
+    }
+
+    #korea_break2 {
+        background-image: url(assets/flag2.png);
+    }
+
+    #korea_break3 {
+        background-image: url(assets/flag3.png);
+    }
+
+    #korea_break4 {
+        background-image: url(assets/flag4.png);
+    }
+
+
+    /****************************  HOLD SLUT  ****************************/
+
+
+
+
+    /****************************  HOLD  ****************************/
+
+    /****************************  HOLD SLUT  ****************************/
+
+
+
+    /****************************  KLUBBEN  ****************************/
+
+    #klub_splash {
+        background-image: url(filer/fotos/klub1.jpg);
+        width: 100vw;
+        height: 66.6vw;
+        background-size: cover;
+        max-width: none;
+        margin: 0px;
+    }
+
+    #historie_splash {
+        background-image: url(filer/fotos/klub3.jpg);
+        width: 100vw;
+        height: 66.6vw;
+        background-size: cover;
+        max-width: none;
+        margin: 0px;
+    }
+
+    #instruktoerer_splash {
+        background-image: url(filer/fotos/klub2.jpg);
+        width: 100vw;
+        height: 66.6vw;
+        background-size: cover;
+        max-width: none;
+        margin: 0px;
+    }
+
+    #klub_break1 {
+        background-image: url(assets/korea_break1.png);
+    }
+
+    #klub_break2 {
+        background-image: url(assets/korea_break2.png);
+    }
+
+    #klub_break3 {
+        background-image: url(assets/korea_break3.png);
+    }
+
+    #klub_break4 {
+        background-image: url(assets/korea_break4.png);
+    }
+
+    #instruktoerer .col {
+        padding: 2vw;
+    }
+
+    #instruktoerer h2 {
+        color: #cd2e3a;
+        padding-top: 30px;
+    }
+
+    #klubben .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #klubben .colright {
+        flex-basis: 300px;
+        flex-grow: 1;
+        padding: 2vw;
+    }
+
+    #klubben .colleft {
+        flex-basis: 300px;
+        flex-grow: 1;
+        padding: 2vw;
+    }
+
+    #klub_splash h1 {
+        padding-top: 30px;
+        color: #cd2e3a;
+    }
+
+    #klubben h2 {
+        color: #0047a0;
+        margin-top: 0;
+    }
+
+    #klubben p {
+        margin-bottom: 15px;
+    }
+
+    #historie .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #historie .colright {
+        flex-basis: 300px;
+        flex-grow: 1;
+        padding: 2vw;
+    }
+
+    #historie .colleft {
+        flex-basis: 300px;
+        flex-grow: 1;
+        padding: 2vw;
+    }
+
+    #historie ul {
+        list-style-position: outside;
+        list-style-type: circle;
+    }
+
+    #historie h2 {
+        color: #cd2e3a;
+        padding-top: 30px;
+    }
+
+    historie p {
+        margin-bottom: 15px;
+    }
+
+    #bestyrelsen {
+        background-color: #e4e4e4;
+        margin: 0;
+    }
+
+    #bestyrelsen .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    #bestyrelsen .bestyrelsesbox {
+        margin: 15px;
+        padding: 2vw;
+        background-color: white;
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+
+    .bestyrelsesbox h3 {
+        color: #0047a9;
+    }
+
+    #bestyrelsen h2 {
+        color: #cd2e3a;
+        padding-top: 30px;
+        margin-left: 10px;
+    }
+
+    /****************************  KLUBBEN SLUT  ****************************/
+
+
+
+    /****************************  TAEKWONDO  ****************************/
+
+    #tkd_splash {
+        background-image: url(filer/fotos/belter.jpg);
+        width: 100vw;
+        height: 66.6vw;
+        background-size: cover;
+        max-width: none;
+        margin: 0px;
+    }
+
+    #born_splash {
+        background-image: url(filer/fotos/born.jpg);
+        width: 100vw;
+        height: 66.6vw;
+        background-size: cover;
+        max-width: none;
+        margin: 0px;
+    }
+
+    #born2_splash {
+        background-image: url(filer/fotos/born2.jpg);
+        width: 100vw;
+        height: 66.6vw;
+        background-size: cover;
+        max-width: none;
+        margin: 0px;
+        margin-top: 3vw;
+    }
+
+    #dobok_splash {
+        background-image: url(filer/fotos/dobok.jpg);
+        width: 100vw;
+        height: 66.6vw;
+        background-size: cover;
+        max-width: none;
+        margin: 0px;
+    }
+
+    #belter_splash {
+        background-image: url(filer/fotos/belter.jpg);
+        width: 100vw;
+        height: 66.6vw;
+        background-size: cover;
+        max-width: none;
+        margin: 0px;
+    }
+
+    #tkd .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .tkd_info {
+        flex-grow: 1;
+        flex-basis: 1000px;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .tkd_txt h1 {
+        font-family: 'Black Han Sans', sans-serif;
+        font-weight: 700;
+        font-size: 2.5rem;
+        color: #CD2E3A;
+        padding: 0px;
+        margin-left: 7vw;
+        margin-top: 7vw;
+    }
+
+    .tkd_txt h2 {
+        font-family: 'Noto Sans:700', sans-serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: #0047A0;
+        padding: 0px;
+        margin-left: 7vw;
+        margin-top: 3vw;
+    }
+
+    .tkd_txt p {
+        font-family: 'Noto Sans:400', sans-serif;
+        font-weight: 400;
+        color: #000000;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin: 5px;
+        padding: 0px;
+        margin-left: 7vw;
+        margin-right: 7vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+
+    .tkd_txt ul {
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+
+    /****************************  TAEKWONDO SLUT  ****************************/
+
+
+
+    /****************************  MEDLEM  ****************************/
+    .break {
+        height: 10vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    #tilmeld_nu {
+        background-color: white;
+        padding: 15px;
+        margin: 0px;
+
+    }
+
+    #tilmeld_nu .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 45px;
+
+
+    }
+
+    #tilmeld_nu .col {
+        flex-grow: 1;
+        flex-basis: 400px;
+        padding: 30px;
+        margin: 30px;
+        max-width: 600px;
+        border-radius: 5px;
+        background-color: #0047A0;
+    }
+
+
+    #tilmeld_nu .signup {}
+
+
+    #tilmeld_nu input[type=text],
+    #tilmeld_nu input[type=number],
+    #tilmeld_nu input[type=date],
+    #tilmeld_nu input[type=tel],
+    #tilmeld_nu input[type=email] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid #0047A0;
+        border-radius: 4px;
+        background-color: #E4E4E4;
+
+    }
+
+    #tilmeld_nu input[type=email]:focus {
+        background-color: white;
+
+
+    }
+
+    #tilmeld_nu input[type=submit] {
+        width: 100%;
+        background-color: #0047A0;
+        color: #ffffff;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: 2px solid #ffffff;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    #tilmeld_nu input[type=submit]:hover {
+        background-color: #ffffff;
+        color: #0047A0;
+    }
+
+
+    #tilmeld_nu .txt,
+    #tilmeld_nu .firstname,
+    #tilmeld_nu .lastname,
+    #tilmeld_nu .adresse,
+    #tilmeld_nu .post,
+    #tilmeld_nu .by,
+    #tilmeld_nu .bday,
+    #tilmeld_nu .nummer,
+    #tilmeld_nu .email {
+        color: #0047A0;
+    }
+
+    #tilmeld_nu .button {
+        color: #ffffff;
+        background-color: #0047A0;
+        font-weight: bold;
+    }
+
+    #tilmeld_nu .form {
+        color: #0047A0;
+    }
+
+
+
+    #tilmeld_nu h1,
+    #tilmeld_nu h3,
+    #tilmeld_nu p {
+        color: white;
+    }
+
+    #tilmeld_nu h2 {
+        font-family: 'Black Han Sans', sans-serif;
+        color: white;
+    }
+
+    /****************************  MEDLEM SLUT  ****************************/
+
+
+
+    /****************************  MEDIER  ****************************/
+
+
+    .masonry {
+        /* Masonry container */
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+        -webkit-column-gap: 1em;
+        -moz-column-gap: 1em;
+        column-gap: 1em;
+        margin: 1.5em;
+        padding: 0;
+        -moz-column-gap: 1.5em;
+        -webkit-column-gap: 1.5em;
+        column-gap: 1.5em;
+        font-size: .85em;
+    }
+
+    .item {
+        display: inline-block;
+        background: #fff;
+        padding: 1em;
+        margin: 0 0 1.5em;
+        width: 100%;
+        -webkit-transition: 1s ease all;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-shadow: 2px 2px 4px 0 #ccc;
+    }
+
+    .item img {
+        max-width: 100%;
+    }
+
+    @media only screen and (max-width: 320px) {
+        .masonry {
+            -moz-column-count: 1;
+            -webkit-column-count: 1;
+            column-count: 1;
+        }
+    }
+
+    @media only screen and (min-width: 321px) and (max-width: 768px) {
+        .masonry {
+            -moz-column-count: 2;
+            -webkit-column-count: 2;
+            column-count: 2;
+        }
+    }
+
+    @media only screen and (min-width: 769px) and (max-width: 1200px) {
+        .masonry {
+            -moz-column-count: 3;
+            -webkit-column-count: 3;
+            column-count: 3;
+        }
+    }
+
+    @media only screen and (min-width: 1201px) {
+        .masonry {
+            -moz-column-count: 4;
+            -webkit-column-count: 4;
+            column-count: 4;
+        }
+    }
+
+
+
+
+    /****************************  MEDIER SLUT  ****************************/
+
+
+
+    /****************************  MEDIA QUERIES  ****************************/
+
+    @media only screen and (min-width: 200px) {
+        #splash {
+
+            background-position: 80% 0%;
+            position: relative;
+            margin-top: 60px;
+        }
+
+    }
+
+    @media only screen and (min-width: 500px) {
+        #splash {
+            width: 100vw;
+            height: 46.25vw;
+            background-position: 80% 0%;
+            margin-top: 60px;
+            position: relative;
+        }
+
+    }
+
+    @media only screen and (min-width: 800px) {
+
+        #splash {
+            margin-top: 60px;
+            background-position: 80% 0%;
+        }
+
+        .nav {
+            /*flex-direction: row;
         flex-wrap: nowrap;
         align-items: center;
          */
-        ´
+            ´
+        }
+
     }
 
-}
-
-@media (orientation: landscape) {
-    #splash {
-        width: 100vw;
-        height: 46.25vw;
-        background-position: 0% 0%;
+    @media (orientation: landscape) {
+        #splash {
+            width: 100vw;
+            height: 46.25vw;
+            background-position: 0% 0%;
+        }
     }
-}
 
-/****************************  MEDIA QUERIES SLUT  ****************************/
+    /****************************  MEDIA QUERIES SLUT  ****************************/
