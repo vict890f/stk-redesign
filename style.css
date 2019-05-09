@@ -204,7 +204,7 @@ a {
 /**************************** TYPOGRAFI SLUT ****************************/
 
 /****************************  MENU  ****************************/
-/*
+
 header {
     background-color: #ffffff;
     position: fixed;
@@ -254,7 +254,6 @@ header nav a:hover {
     text-decoration: none;
 
 }
-*/
 
 .hidden {
     transform: translateX(-100%);
