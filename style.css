@@ -1219,6 +1219,97 @@ historie p {
 
 /****************************  TAEKWONDO  ****************************/
 
+#born_splash {
+    background-image: url(filer/fotos/born.jpg);
+    width: 100vw;
+    height: 66.6vw;
+    background-size: cover;
+    max-width: none;
+    margin: 0px;
+}
+
+#born2_splash {
+    background-image: url(filer/fotos/born2.jpg);
+    width: 100vw;
+    height: 66.6vw;
+    background-size: cover;
+    max-width: none;
+    margin: 0px;
+    margin-top: 4vw;
+}
+
+#dobok_splash {
+    background-image: url(filer/fotos/dobok.jpg);
+    width: 100vw;
+    height: 66.6vw;
+    background-size: cover;
+    max-width: none;
+    margin: 0px;
+}
+
+#belter_splash {
+    background-image: url(filer/fotos/belter.jpg);
+    width: 100vw;
+    height: 66.6vw;
+    background-size: cover;
+    max-width: none;
+    margin: 0px;
+}
+
+#tkd .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tkd_info {
+    flex-grow: 1;
+    flex-basis: 1000px;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.tkd_txt h1 {
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #CD2E3A;
+    padding: 0px;
+    margin-left: 7vw;
+    margin-top: 7vw;
+}
+
+.tkd_txt p {
+    font-family: 'Noto Sans:400', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 5px;
+    padding: 0px;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
+
+.tkd_txt ul {
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+/*.tkd_txt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.tkd_txt .col_left {
+    flex-grow: 1;
+    flex-basis: 600px;
+}*/
+
 /****************************  TAEKWONDO SLUT  ****************************/
 
 
