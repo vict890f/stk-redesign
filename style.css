@@ -1225,6 +1225,15 @@ historie p {
 
 /****************************  TAEKWONDO  ****************************/
 
+#tkd_splash {
+    background-image: url(filer/fotos/belter.jpg);
+    width: 100vw;
+    height: 66.6vw;
+    background-size: cover;
+    max-width: none;
+    margin: 0px;
+}
+
 #born_splash {
     background-image: url(filer/fotos/born.jpg);
     width: 100vw;
@@ -1241,7 +1250,7 @@ historie p {
     background-size: cover;
     max-width: none;
     margin: 0px;
-    margin-top: 4vw;
+    margin-top: 3vw;
 }
 
 #dobok_splash {
@@ -1292,7 +1301,7 @@ historie p {
     color: #0047A0;
     padding: 0px;
     margin-left: 7vw;
-    margin-top: 7vw;
+    margin-top: 3vw;
 }
 
 .tkd_txt p {
@@ -1306,34 +1315,12 @@ historie p {
     margin-left: 7vw;
     margin-right: 7vw;
     margin-top: 1vw;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
 }
 
 .tkd_txt ul {
     margin-left: 7vw;
     margin-right: 7vw;
-}
-
-#tkd_splash {
-
-    width: 100%;
-    height: 40vw;
-    background-color: black;
-    background-size: cover;
-    background-position: 80% 0%;
-    max-width: none;
-    padding: 0;
-    margin: 0;
-    margin-top: 10vw;
-    position: relative;
-}
-
-#tkd_splash h1 {
-    color: white;
-    margin: 10px;
-    margin-top: 15vw;
-    margin-left: 16vw;
-    padding: 10px;
 }
 
 /****************************  TAEKWONDO SLUT  ****************************/
