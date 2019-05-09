@@ -60,13 +60,14 @@ footer .wrapper {
     display: flex;
     flex-wrap: wrap;
     max-width: 250px;
-    margin-left: 10vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
 }
 
 #footer_col2 figure {
-    width: 110px;
-    margin-left: 77.5px;
-    margin-right: 77.5px;
+    width: 130px;
+    margin-left: 70.5px;
+    margin-right: 70.5px;
     margin-bottom: 20px;
     justify-content: center;
 
@@ -78,18 +79,7 @@ footer .wrapper {
     display: flex;
     flex-wrap: wrap;
     max-width: 265px;
-    margin-left: 10vw;
-
-}
-
-#footer_col3 {
-    flex-grow: 1;
-    flex-basis: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 250px;
-    margin-left: 10vw;
-
+    margin-left: 20vw;
 
 }
 
