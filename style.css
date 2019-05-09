@@ -158,6 +158,13 @@ h3 {
     color: #000000;
 }
 
+h4 {
+    font-family: 'Noto Sans:700', sans-serif;
+    font-weight: 700;
+    font-size: 1.0rem;
+    color: #000000;
+}
+
 
 p {
     font-family: 'Noto Sans:400', sans-serif;
@@ -1115,7 +1122,7 @@ FORSIDE SLUT ********************************************** ********************
     padding: 2vw;
 }
 
-#instruktoerer h1 {
+#instruktoerer h2 {
     color: #cd2e3a;
     padding-top: 30px;
 }
@@ -1175,7 +1182,7 @@ FORSIDE SLUT ********************************************** ********************
     list-style-type: circle;
 }
 
-#historie h1 {
+#historie h2 {
     color: #cd2e3a;
     padding-top: 30px;
 }
@@ -1186,6 +1193,7 @@ historie p {
 
 #bestyrelsen {
     background-color: #e4e4e4;
+    margin: 0;
 }
 
 #bestyrelsen .sectionwrapper {
@@ -1202,13 +1210,14 @@ historie p {
     flex-grow: 1;
 }
 
-.bestyrelsesbox h2 {
+.bestyrelsesbox h3 {
     color: #0047a9;
 }
 
-#bestyrelsen h1 {
+#bestyrelsen h2 {
     color: #cd2e3a;
     padding-top: 30px;
+    margin-left: 10px;
 }
 
 /****************************  KLUBBEN SLUT  ****************************/
