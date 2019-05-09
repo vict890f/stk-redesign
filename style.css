@@ -216,12 +216,11 @@ header {
 }
 
 nav {
-    display: flex;
+    /*display: flex;
     flex-wrap: wrap;
-    text-align: center;
+    text-align: center;*/
     background-size: 100%;
-    padding-left: 40px;
-    padding-right: 40px;
+
 }
 
 header nav a {
@@ -266,8 +265,10 @@ header nav a:hover {
 
 #menu {
     list-style-type: none;
-    transition: transform .0s;
+    transition: transform .3s;
+    transform-origin: top left;
 }
+
 
 @media only screen and (min-width:600px) {
     #menuknap {
