@@ -214,7 +214,7 @@ a {
 /**************************** TYPOGRAFI SLUT ****************************/
 
 /****************************  MENU  ****************************/
-
+/*
 header {
     background-color: #ffffff;
     position: fixed;
@@ -264,6 +264,7 @@ header nav a:hover {
     text-decoration: none;
 
 }
+*/
 
 .hidden {
     transform: translateX(-100%);
@@ -1519,7 +1520,6 @@ historie p {
     #splash {
 
         background-position: 80% 0%;
-        margin-top: 150px;
         position: relative;
 
     }
@@ -1531,7 +1531,7 @@ historie p {
         width: 100vw;
         height: 46.25vw;
         background-position: 80% 0%;
-        margin-top: 170px;
+        margin-top: 10px;
         position: relative;
     }
 
