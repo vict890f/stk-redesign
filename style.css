@@ -320,7 +320,7 @@ header nav a:hover {
 }
 
 #splash h3 {
-    color: #CD2E3A;
+    color: white;
     font-family: 'Noto Sans KR:400', sans-serif;
     margin: 10px;
     padding: 10px;
@@ -1365,6 +1365,7 @@ historie p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 45px;
 
 
 }
