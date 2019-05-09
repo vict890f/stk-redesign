@@ -65,9 +65,11 @@ footer .wrapper {
 
 #footer_col2 figure {
     width: 110px;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 77.5px;
+    margin-right: 77.5px;
     margin-bottom: 20px;
+    justify-content: center;
+
 }
 
 #footer_col2 {
@@ -75,7 +77,7 @@ footer .wrapper {
     flex-basis: 200px;
     display: flex;
     flex-wrap: wrap;
-    max-width: 250px;
+    max-width: 265px;
     margin-left: 10vw;
 
 }
@@ -104,18 +106,19 @@ footer .wrapper ul {
 #footer_col2 .dage {
     /* child flex */
     flex-grow: 1;
-    flex-basis: 100px;
+    flex-basis: 120px;
 
 }
 
 #footer_col2 .tider {
     /* child flex */
     flex-grow: 1;
-    flex-basis: 100px;
+    flex-basis: 135px;
 }
 
 footer ul,
 footer p {
+    list-style: none;
     color: #ffffff;
 }
 
@@ -169,7 +172,6 @@ h4 {
 p {
     font-family: 'Noto Sans:400', sans-serif;
     font-weight: 400;
-    color: #000000;
     font-size: 0.9rem;
     line-height: 1.5;
     margin: 5px;
@@ -178,7 +180,6 @@ p {
 li {
     font-family: 'Noto Sans:400', sans-serif;
     font-weight: 400;
-    color: #000000;
     font-size: 0.9rem;
     line-height: 1.25;
     margin: 5px;
@@ -187,7 +188,6 @@ li {
 ul {
     font-family: 'Noto Sans:400', sans-serif;
     font-weight: 400;
-    color: #000000;
     font-size: 0.9rem;
     line-height: 1.25;
     margin: 5px;
@@ -198,7 +198,6 @@ figcaption {
     font-weight: 400;
     font-size: 0.8rem;
     font-style: italic;
-    color: #000000;
 }
 
 a:visited {
@@ -1045,20 +1044,20 @@ FORSIDE SLUT ********************************************** ********************
 }
 
 #korea_break1 {
-    background-image: url(assets/korea_break1.png);
+    background-image: url(assets/flag1.png);
 
 }
 
 #korea_break2 {
-    background-image: url(assets/korea_break2.png);
+    background-image: url(assets/flag2.png);
 }
 
 #korea_break3 {
-    background-image: url(assets/korea_break3.png);
+    background-image: url(assets/flag3.png);
 }
 
 #korea_break4 {
-    background-image: url(assets/korea_break4.png);
+    background-image: url(assets/flag4.png);
 }
 
 
