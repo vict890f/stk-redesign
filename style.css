@@ -206,22 +206,28 @@ a {
 /****************************  MENU  ****************************/
 
 header {
-    background-color: #ffffff;
     position: fixed;
     top: 0;
-    padding: 20px 10px;
     width: 100%;
-    margin: 0rem;
+    z-index: 1;
 
 }
 
 nav {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
+
     background-size: 100%;
-    padding-left: 40px;
-    padding-right: 40px;
+    overflow: hidden;
+    background-color: #ffffff;
+
+
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+
+
 }
 
 header nav a {
@@ -230,12 +236,12 @@ header nav a {
     padding: 0.5rem;
     font-family: 'Noto Sans:400', sans-serif;
     font-size: 0.85rem;
+
 }
 
 header nav a:link,
 header nav a:visited,
 header nav a:active {
-    background-color: #ffffff;
     color: #000000;
     text-decoration: none;
     font-weight: bold;
@@ -247,7 +253,22 @@ header nav a:hover {
 
 header nav a:active {
     background-color: #CD2E3A;
+
 }
+
+header ul {
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+}
+
+header li {
+    background-color: #ffffff;
+
+}
+
+
 
 header nav a:hover {
     color: white;
@@ -255,19 +276,38 @@ header nav a:hover {
 
 }
 
-.hidden {
+
+header .hidden {
     transform: translateX(-100%);
     opacity: 0;
+    padding: 5px;
+    background-color: #ffffff;
+    max-height: 60px;
 }
 
 #menuknap {
     display: inline-block;
+    position: absolute;
+
+    right: 20px;
+    margin-top: 5px;
+
+    cursor: pointer;
+    font-family: 'Noto Sans:400', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #ffffff;
+
 }
 
 #menu {
     list-style-type: none;
-    transition: transform .0s;
+    transition: transform .2s;
+    transform-origin: top left;
+
+
 }
+
 
 @media only screen and (min-width:600px) {
     #menuknap {
@@ -281,8 +321,23 @@ header nav a:hover {
 
     #menu li {
         display: inline-block;
+
+        text-align: center;
+        margin: 15px auto;
+
+
+
     }
+
+    nav {
+        border-bottom: 0.1px solid #e4e4e4;
+        justify-content: space-between;
+
+    }
+
 }
+
+/*
 
 
 /****************************  MENU SLUT  ****************************/
@@ -300,7 +355,7 @@ header nav a:hover {
     background-position: 80% 0%;
     max-width: none;
     padding: 0;
-    margin-top: 20px;
+    margin-top: 60px;
     margin: 0;
     position: relative;
 
@@ -1449,10 +1504,13 @@ historie p {
 
 /****************************  MEDLEM  ****************************/
 
+
 #tilmeld_nu {
     background-color: white;
     padding: 15px;
-    margin: 0px;
+    background-color: white;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
 
 }
 
@@ -1460,11 +1518,24 @@ historie p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 45px;
 
 
 }
 
-#tilmeld_nu .col {
+#tilmeld_nu .col_left {
+    flex-grow: 1;
+    flex-basis: 400px;
+    padding: 30px;
+    margin: 30px;
+    max-width: 600px;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#tilmeld_nu .col_right {
     flex-grow: 1;
     flex-basis: 400px;
     padding: 30px;
@@ -1522,15 +1593,20 @@ historie p {
 #tilmeld_nu .adresse,
 #tilmeld_nu .post,
 #tilmeld_nu .by,
-#tilmeld_nu .bday,
+
 #tilmeld_nu .nummer,
 #tilmeld_nu .email {
     color: #0047A0;
 }
 
-#tilmeld_nu .button {
+#tilmeld_nu .bday {
+    color: rgb(117, 117, 117)
+}
+
+
+input type="date"required="required" > #tilmeld_nu .button {
     color: #ffffff;
-    background-color: #0047A0;
+    background-color: #ecf0f1;
     font-weight: bold;
 }
 
@@ -1539,17 +1615,40 @@ historie p {
 }
 
 
-
-#tilmeld_nu h1,
-#tilmeld_nu h3,
-#tilmeld_nu p {
-    color: white;
+#tilmeld_nu .text {
+    margin: 5px;
+    padding: 5px;
+    padding-top: 30px;
 }
 
-#tilmeld_nu h2 {
+#tilmeld_nu .foto {
+    margin: 5px;
+    padding: 5px;
+    padding-top: 50px;
+
+}
+
+
+#tilmeld_nu .col_left h1 {
+    font-family: 'Black Han Sans', sans-serif;
+    color: #0047A0;
+}
+
+#tilmeld_nu .col_left h1 {
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+#tilmeld_nu .col_right p {
+    color: white;
+
+}
+
+#tilmeld_nu h2,
+#tilmeld_nu h3 {
     font-family: 'Black Han Sans', sans-serif;
     color: white;
 }
+
 
 /****************************  MEDLEM SLUT  ****************************/
 
@@ -1637,7 +1736,7 @@ historie p {
 
         background-position: 80% 0%;
         position: relative;
-
+        margin-top: 60px;
     }
 
 }
@@ -1647,7 +1746,7 @@ historie p {
         width: 100vw;
         height: 46.25vw;
         background-position: 80% 0%;
-        margin-top: 10px;
+        margin-top: 60px;
         position: relative;
     }
 
@@ -1656,14 +1755,16 @@ historie p {
 @media only screen and (min-width: 800px) {
 
     #splash {
-        margin-top: 80px;
+        margin-top: 60px;
         background-position: 80% 0%;
     }
 
     .nav {
-        flex-direction: row;
+        /*flex-direction: row;
         flex-wrap: nowrap;
         align-items: center;
+         */
+        ´
     }
 
 }
