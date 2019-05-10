@@ -1408,20 +1408,12 @@ FORSIDE SLUT ********************************************** ********************
 
 
     /****************************  MEDLEM  ****************************/
-    .break {
-        height: 10vw;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        margin-top: 5vw;
-        margin-bottom: 5vw;
-    }
 
 
     #tilmeld_nu {
         background-color: white;
         padding: 15px;
-        background-color: #e4e4e4;
+        background-color: white;
         margin-top: 2.5vw;
         margin-bottom: 2.5vw;
 
