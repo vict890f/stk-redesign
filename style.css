@@ -1417,10 +1417,13 @@ FORSIDE SLUT ********************************************** ********************
         margin-bottom: 5vw;
     }
 
+
     #tilmeld_nu {
         background-color: white;
         padding: 15px;
-        margin: 0px;
+        background-color: #e4e4e4;
+        margin-top: 2.5vw;
+        margin-bottom: 2.5vw;
 
     }
 
@@ -1433,7 +1436,19 @@ FORSIDE SLUT ********************************************** ********************
 
     }
 
-    #tilmeld_nu .col {
+    #tilmeld_nu .col_left {
+        flex-grow: 1;
+        flex-basis: 400px;
+        padding: 30px;
+        margin: 30px;
+        max-width: 600px;
+        border-radius: 5px;
+        background-color: white;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #tilmeld_nu .col_right {
         flex-grow: 1;
         flex-basis: 400px;
         padding: 30px;
@@ -1491,15 +1506,20 @@ FORSIDE SLUT ********************************************** ********************
     #tilmeld_nu .adresse,
     #tilmeld_nu .post,
     #tilmeld_nu .by,
-    #tilmeld_nu .bday,
+
     #tilmeld_nu .nummer,
     #tilmeld_nu .email {
         color: #0047A0;
     }
 
-    #tilmeld_nu .button {
+    #tilmeld_nu .bday {
+        color: rgb(117, 117, 117)
+    }
+
+
+    input type="date"required="required" > #tilmeld_nu .button {
         color: #ffffff;
-        background-color: #0047A0;
+        background-color: #ecf0f1;
         font-weight: bold;
     }
 
@@ -1508,17 +1528,40 @@ FORSIDE SLUT ********************************************** ********************
     }
 
 
-
-    #tilmeld_nu h1,
-    #tilmeld_nu h3,
-    #tilmeld_nu p {
-        color: white;
+    #tilmeld_nu .text {
+        margin: 5px;
+        padding: 5px;
+        padding-top: 30px;
     }
 
-    #tilmeld_nu h2 {
+    #tilmeld_nu .foto {
+        margin: 5px;
+        padding: 5px;
+        padding-top: 50px;
+
+    }
+
+
+    #tilmeld_nu .col_left h1 {
+        font-family: 'Black Han Sans', sans-serif;
+        color: #0047A0;
+    }
+
+    #tilmeld_nu .col_left h1 {
+        font-family: 'Black Han Sans', sans-serif;
+    }
+
+    #tilmeld_nu .col_right p {
+        color: white;
+
+    }
+
+    #tilmeld_nu h2,
+    #tilmeld_nu h3 {
         font-family: 'Black Han Sans', sans-serif;
         color: white;
     }
+
 
     /****************************  MEDLEM SLUT  ****************************/
 
