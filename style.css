@@ -228,15 +228,6 @@ nav {
 
 }
 
-.break {
-    height: 10vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
-}
-
 header nav a {
     /*flex-basis: auto;
     flex-grow: 1;*/
@@ -266,8 +257,8 @@ header nav a:active {
 header ul {
     list-style: none;
     margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10;
+    margin-bottom: 5px;
+    padding: 5px;
     background-color: #ffffff;
 }
 
@@ -290,7 +281,7 @@ header nav a:hover {
 header .hidden {
     transform: translateX(-100%);
     opacity: 0;
-    padding: 20px 10px;
+    padding: 5px;
     background-color: #ffffff;
     max-height: 60px;
 }
