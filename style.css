@@ -469,17 +469,88 @@ video[poster] {
     flex-wrap: wrap;
     align-items: flex-end;
     background-color: white;
-    background-image: url(assets/billede2.jpg);
+    background-image: url(filer/fotos/klub3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 30vw;
-    margin-top: 2vw;
+    margin-top: 4vw;
     margin-bottom: 4vw;
     margin-left: 2vw;
     margin-right: 2vw;
     padding-left: 1vw;
     padding-right: 1vw;
     padding-bottom: 3vw;
+
+}
+
+#forside_hold .col2 {
+    /* child flex */
+    flex-grow: 1;
+    flex-basis: 200px;
+    /* parent flex */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: white;
+    background-image: url(filer/fotos/dobok.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 30vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 3vw;
+
+}
+
+#forside_hold .col3 {
+    /* child flex */
+    flex-grow: 1;
+    flex-basis: 200px;
+    /* parent flex */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: white;
+    background-image: url(filer/fotos/belter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 3vw;
+
+}
+
+#forside_hold .col4 {
+    /* child flex */
+    flex-grow: 1;
+    flex-basis: 200px;
+    /* parent flex */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: white;
+    background-image: url(filer/fotos/klub2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 3vw;
+
 }
 
 .col1:hover {
@@ -488,7 +559,31 @@ video[poster] {
     cursor: pointer;
 }
 
+.col2:hover {
+    transform: scale(1.01);
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.col3:hover {
+    transform: scale(1.01);
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.col4:hover {
+    transform: scale(1.01);
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+
+
 #forside_hold h3 {
+    color: #ffffff;
+}
+
+#forside_hold p {
     color: #ffffff;
 }
 
